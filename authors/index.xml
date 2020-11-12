@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Xinyi Shen</title>
-    <link>ssxy00.github.io/authors/</link>
+    <link>http://ssxy00.github.io/authors/</link>
     <description>Recent content in Authors on Xinyi Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 12 Nov 2020 12:57:25 +0800</lastBuildDate>
     
-	<atom:link href="ssxy00.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://ssxy00.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Xinyi Shen</title>
-      <link>ssxy00.github.io/authors/xinyi-shen/</link>
+      <link>http://ssxy00.github.io/authors/xinyi-shen/</link>
       <pubDate>Thu, 12 Nov 2020 12:57:25 +0800</pubDate>
       
-      <guid>ssxy00.github.io/authors/xinyi-shen/</guid>
+      <guid>http://ssxy00.github.io/authors/xinyi-shen/</guid>
       <description></description>
     </item>
     
