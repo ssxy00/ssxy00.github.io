@@ -18,12 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
-11.12 Language Through a Prism: A Spectral Approach for Multiscale Language Representations
- Author: Alex Tamkin, Dan Jurafsky, Noah Goodman Comments: NeurIPS 2020  自然语言中是包含不同尺度的信息的 (character-level, word-level, document-level, \cdots)，而不同的下游任务会用到不同尺度的信息（例如文档分类会用到篇章级别的信息）。如果可以将不同尺度的信息分离出来，那么显然是对做特定尺度的任务有好处的。这篇工作借用信号处理中「光谱分析 (spectral analysis)」的做法，成功提取出特定尺度的信息，并基于此设计了一种新的模型组件: prism layer。prism layer + BERT 能更好地在 MLM (Masked Language Modeling) 任务中利用 long-range context。
-题目中的 Prism 起的很有灵魂了。
+10 Nov 20 &amp;ndash; 11 Nov 20 更新于 13 Nov 2020
+On the Sentence Embeddings from Pre-trained Language Models
+ Author: Bohan Li, Hao Zhou, Junxian He, Mingxuan Wang, Yiming Yang, Lei Li Comments: EMNLP 2020 Keywords: Sentence Embedding, BERT, Normalizing Flow  这篇文章首先观察到一个现象：预训练模型的 sentence embedding 如果不做 finetune，难以很好地概括句子的语义。他们对 BERT MLM 的预训练任务和语义相似度任务之间的关联做了理论分析，发现 BERT 总是会推导出一个非平滑的各向异性的语义空间，而这会对语义相似度任务有负面影响。为了解决这个问题，他们提出利用 Normalizing Flow 将这一各向异性的语义空间转换为各向同性的高斯分布，在各种语义相似度任务上得到显著提升。
 ​
-When Do You Need Billions of Words of Pretraining Data?
- Author: Yian Zhang, Alex Warstadt, Haau-Sing Li, Samuel R.</description>
+Audrey: A Personalized Open-Domain Conversational Bot
+ Author: Chung Hoon Hong, Yuan Liang, Sagnik Sinha Roy, Arushi Jain, Vihang Agarwal, Ryan Draves , Zhizhuo Zhou, William Chen, Yujian Liu, Martha Miracky, Lily Ge, Nikola Banovic, David Jurgens  介绍了 University of Michigan 参赛 Alexa Prize 2019 的对话模型 Audrey。</description>
     </item>
     
   </channel>

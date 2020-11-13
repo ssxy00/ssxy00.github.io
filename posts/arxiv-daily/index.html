@@ -120,7 +120,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              2-minute read
+              3-minute read
             </span>
           </div>
           <div class="authors">
@@ -134,7 +134,36 @@
       <div>
         
         <p>最近订阅了 <a href="https://arxiv.org/list/cs.CL/recent">Arxiv cs.CL</a>，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。</p>
-<h2 id="1112">11.12</h2>
+<h2 id="10-nov-20----11-nov-20">10 Nov 20 &ndash; 11 Nov 20</h2>
+<p>更新于 13 Nov 2020</p>
+<p><a href="https://arxiv.org/pdf/2011.05864.pdf">On the Sentence Embeddings from Pre-trained Language Models</a></p>
+<ul>
+<li><strong>Author</strong>: Bohan Li, Hao Zhou, Junxian He, Mingxuan Wang, Yiming Yang, Lei Li</li>
+<li><strong>Comments</strong>: EMNLP 2020</li>
+<li><strong>Keywords</strong>: Sentence Embedding, BERT, Normalizing Flow</li>
+</ul>
+<p>这篇文章首先观察到一个现象：预训练模型的 sentence embedding 如果不做 finetune，难以很好地概括句子的语义。他们对 BERT MLM 的预训练任务和语义相似度任务之间的关联做了理论分析，发现 BERT 总是会推导出一个非平滑的各向异性的语义空间，而这会对语义相似度任务有负面影响。为了解决这个问题，他们提出利用 Normalizing Flow 将这一各向异性的语义空间转换为各向同性的高斯分布，在各种语义相似度任务上得到显著提升。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.05910.pdf">Audrey: A Personalized Open-Domain Conversational Bot</a></p>
+<ul>
+<li><strong>Author</strong>: Chung Hoon Hong, Yuan Liang, Sagnik Sinha Roy, Arushi Jain, Vihang Agarwal, Ryan Draves , Zhizhuo Zhou, William Chen, Yujian Liu, Martha Miracky, Lily Ge, Nikola Banovic, David Jurgens</li>
+</ul>
+<p>介绍了 University of Michigan 参赛 Alexa Prize 2019 的对话模型 Audrey。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.12744.pdf">Augmenting Transformers with KNN-Based Composite Memory for Dialog</a></p>
+<ul>
+<li><strong>Author</strong>: Angela Fan, Claire Gardent, Chloe Braud, Antoine Bordes</li>
+</ul>
+<p>NLP 的许多任务会受益于丰富的外部知识，例如 QA, Chatbot, Reasoning。这篇工作为对话模型设计了一个基于 KNN 的外部知识提取模块。</p>
+<p><em>感兴趣的理由是在对话领域，越长的 context 和越丰富的外部知识一定会有利于更好的对话生成，但这些信息很难记忆在隐空间中，因此这种与一个知识库交互的信息提取的做法可以了解一下。</em></p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2006.01460.pdf">Situated and Interactive Multimodal Conversations</a></p>
+<ul>
+<li><strong>Author</strong>: Seungwhan Moon, Satwik Kottur, Paul A. Crook, Ankita De, Shivani Poddar, Theodore Levin, David Whitney, Daniel Difranco, Ahmad Beirami Eunjoon Cho, Rajen Subba, Alborz Geramifard</li>
+</ul>
+<p>新一代虚拟助手（尤其是客服）需要应对多模态的 context 以及做出多模态的回复。Facebook 提出了一个新的任务  Situated Interactive MultiModal Conversations (SIMMC) 来训练模型向这一目标努力。他们发布了两个购物相关的数据集。这个任务也是 <a href="https://sites.google.com/dstc.community/dstc9/home">DSTC9</a> 的赛道之一。</p>
+<h2 id="9-nov-20----10-nov-20">9 Nov 20 &ndash; 10 Nov 20</h2>
+<p>更新于 12 Nov 20</p>
 <p><a href="https://arxiv.org/pdf/2011.04823.pdf">Language Through a Prism: A Spectral Approach for Multiscale Language Representations</a></p>
 <ul>
 <li><strong>Author</strong>: Alex Tamkin, Dan Jurafsky, Noah Goodman</li>
