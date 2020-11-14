@@ -134,6 +134,27 @@
       <div>
         
         <p>最近订阅了 <a href="https://arxiv.org/list/cs.CL/recent">Arxiv cs.CL</a>，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。</p>
+<h2 id="11-nov-20----12-nov-20">11 Nov 20 &ndash; 12 Nov 20</h2>
+<p>更新于 14 Nov 2020</p>
+<p><a href="https://arxiv.org/pdf/2011.06132.pdf">Incorporating a Local Translation Mechanism into Non-autoregressive Translation</a></p>
+<ul>
+<li><strong>Author</strong>: Xiang Kong, Zhisong Zhang, Eduard Hovy</li>
+<li><strong>Comments</strong>: EMNLP 2020</li>
+<li><strong>Keywords</strong>: Non-autoregressive</li>
+</ul>
+<p>Non-autoregressive 相比于 Autoregressive 模型的好处是计算快，因为每个位置的 token 可以被并行预测。但与此同时带来的缺点是每个预测 token 的独立出的，所以整体预测结果质量较差。这篇文章对于两种模型取了折中：在每个位置预测一个片段，然后设计了一种有效的融合方式将每个位置的片段处理为最终的输出。相比于 Baseline (<a href="https://arxiv.org/pdf/2011.06132.pdf">CMLM</a>)，他们的模型用更少的迭代就达到可比或者更好的结果。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2008.02496.pdf">ConvBERT: Improving BERT with Span-based Dynamic Convolution</a></p>
+<ul>
+<li><strong>Author</strong>: Zihang Jiang, Weihao Yu, Daquan Zhou, Yunpeng Chen, Jiashi Feng, Shuicheng Yan</li>
+<li><strong>Comments</strong>: NeurIPS 2020</li>
+<li><strong>Keywords</strong>: BERT, Span-based dynamic convolution</li>
+</ul>
+<p>在 BERT 中，attention 的计算会占据很大的计算量，因为序列中的每个单词需要 attend 到整个序列。这篇工作发现，对于 attention 层的多个注意力头，其实有的头只需要去关注局部信息，因此现有的计算是存在很大的冗余的。因此，他们提出用 span-based dynamic convolution 去替代其中冗余的头，只关注局部信息。替换后的混合 attention 机制不仅提升了表现，而且减少了计算代价。</p>
+<p>比较好奇是怎么发现一些注意力头冗余的，以及这个 span-based dynamic convolution 到底是怎么计算的。</p>
+<p>想到了一篇相关的工作 <a href="https://arxiv.org/pdf/1911.02150.pdf">Fast Transformer Decoding: One Write-Head is All You Need</a></p>
+<p>​</p>
+<p>​</p>
 <h2 id="10-nov-20----11-nov-20">10 Nov 20 &ndash; 11 Nov 20</h2>
 <p>更新于 13 Nov 2020</p>
 <p><a href="https://arxiv.org/pdf/2011.05864.pdf">On the Sentence Embeddings from Pre-trained Language Models</a></p>
@@ -162,6 +183,8 @@
 <li><strong>Author</strong>: Seungwhan Moon, Satwik Kottur, Paul A. Crook, Ankita De, Shivani Poddar, Theodore Levin, David Whitney, Daniel Difranco, Ahmad Beirami Eunjoon Cho, Rajen Subba, Alborz Geramifard</li>
 </ul>
 <p>新一代虚拟助手（尤其是客服）需要应对多模态的 context 以及做出多模态的回复。Facebook 提出了一个新的任务  Situated Interactive MultiModal Conversations (SIMMC) 来训练模型向这一目标努力。他们发布了两个购物相关的数据集。这个任务也是 <a href="https://sites.google.com/dstc.community/dstc9/home">DSTC9</a> 的赛道之一。</p>
+<p>​</p>
+<p>​</p>
 <h2 id="9-nov-20----10-nov-20">9 Nov 20 &ndash; 10 Nov 20</h2>
 <p>更新于 12 Nov 20</p>
 <p><a href="https://arxiv.org/pdf/2011.04823.pdf">Language Through a Prism: A Spectral Approach for Multiscale Language Representations</a></p>

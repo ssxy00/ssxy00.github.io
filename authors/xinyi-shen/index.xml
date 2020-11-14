@@ -18,12 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
-10 Nov 20 &amp;ndash; 11 Nov 20 更新于 13 Nov 2020
-On the Sentence Embeddings from Pre-trained Language Models
- Author: Bohan Li, Hao Zhou, Junxian He, Mingxuan Wang, Yiming Yang, Lei Li Comments: EMNLP 2020 Keywords: Sentence Embedding, BERT, Normalizing Flow  这篇文章首先观察到一个现象：预训练模型的 sentence embedding 如果不做 finetune，难以很好地概括句子的语义。他们对 BERT MLM 的预训练任务和语义相似度任务之间的关联做了理论分析，发现 BERT 总是会推导出一个非平滑的各向异性的语义空间，而这会对语义相似度任务有负面影响。为了解决这个问题，他们提出利用 Normalizing Flow 将这一各向异性的语义空间转换为各向同性的高斯分布，在各种语义相似度任务上得到显著提升。
+11 Nov 20 &amp;ndash; 12 Nov 20 更新于 14 Nov 2020
+Incorporating a Local Translation Mechanism into Non-autoregressive Translation
+ Author: Xiang Kong, Zhisong Zhang, Eduard Hovy Comments: EMNLP 2020 Keywords: Non-autoregressive  Non-autoregressive 相比于 Autoregressive 模型的好处是计算快，因为每个位置的 token 可以被并行预测。但与此同时带来的缺点是每个预测 token 的独立出的，所以整体预测结果质量较差。这篇文章对于两种模型取了折中：在每个位置预测一个片段，然后设计了一种有效的融合方式将每个位置的片段处理为最终的输出。相比于 Baseline (CMLM)，他们的模型用更少的迭代就达到可比或者更好的结果。
 ​
-Audrey: A Personalized Open-Domain Conversational Bot
- Author: Chung Hoon Hong, Yuan Liang, Sagnik Sinha Roy, Arushi Jain, Vihang Agarwal, Ryan Draves , Zhizhuo Zhou, William Chen, Yujian Liu, Martha Miracky, Lily Ge, Nikola Banovic, David Jurgens  介绍了 University of Michigan 参赛 Alexa Prize 2019 的对话模型 Audrey。</description>
+ConvBERT: Improving BERT with Span-based Dynamic Convolution
+ Author: Zihang Jiang, Weihao Yu, Daquan Zhou, Yunpeng Chen, Jiashi Feng, Shuicheng Yan Comments: NeurIPS 2020 Keywords: BERT, Span-based dynamic convolution  在 BERT 中，attention 的计算会占据很大的计算量，因为序列中的每个单词需要 attend 到整个序列。这篇工作发现，对于 attention 层的多个注意力头，其实有的头只需要去关注局部信息，因此现有的计算是存在很大的冗余的。因此，他们提出用 span-based dynamic convolution 去替代其中冗余的头，只关注局部信息。替换后的混合 attention 机制不仅提升了表现，而且减少了计算代价。</description>
     </item>
     
   </channel>
