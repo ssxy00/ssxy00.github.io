@@ -18,11 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
-12 Nov 20 &amp;ndash; 13 Nov 20 更新于 17 Nov 2020
-doc2dial: A Goal-Oriented Document-Grounded Dialogue Dataset
- Author: Song Feng, Hui Wan, Chulaka Gunasekara, Siva Sankalp Patel, Sachindra Joshi, Luis A. Lastras Comments: EMNLP 2020  这篇工作贡献了一个 document-grounded 对话数据集。&amp;lsquo;The dataset includes over 4500 annotated conversations with an average of 14 turns that are grounded in over 450 documents from four domains.&amp;rsquo;
-​
-EDITOR: an Edit-Based Transformer with Repositioning for Neural Machine Translation with Soft Lexical Constraints</description>
+13 Nov 20 &amp;ndash; 16 Nov 20 更新于 18 Nov 2020
+Language Models not just for Pre-training: Fast Online Neural Noisy Channel Modeling
+  Author: Shruti Bhosale, Kyra Yee, Sergey Edunov, Michael Auli
+  Comments: WMT 2020
+  Keywords: Noisy Channel Modeling
+  对于 naïve noisy channel modeling 用于 seq2seq model 速度很慢，这篇工作提出一种有效的近似方法，在提高推理速度的同时还提高了准确性。他们在 Romanian-English 翻译任务上达到了新的 SOTA，表明 noise channel modeling 的方法可以达到比 pre-training 更好的效果。</description>
     </item>
     
   </channel>

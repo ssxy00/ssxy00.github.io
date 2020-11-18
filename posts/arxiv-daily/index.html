@@ -120,7 +120,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              4-minute read
+              6-minute read
             </span>
           </div>
           <div class="authors">
@@ -134,6 +134,109 @@
       <div>
         
         <p>最近订阅了 <a href="https://arxiv.org/list/cs.CL/recent">Arxiv cs.CL</a>，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。</p>
+<h2 id="13-nov-20----16-nov-20">13 Nov 20 &ndash; 16 Nov 20</h2>
+<p>更新于 18 Nov 2020</p>
+<p><a href="https://arxiv.org/pdf/2011.07164.pdf">Language Models not just for Pre-training: Fast Online Neural Noisy Channel Modeling</a></p>
+<ul>
+<li>
+<p><strong>Author</strong>: Shruti Bhosale, Kyra Yee, Sergey Edunov, Michael Auli</p>
+</li>
+<li>
+<p><strong>Comments</strong>: WMT 2020</p>
+</li>
+<li>
+<p><strong>Keywords</strong>: Noisy Channel Modeling</p>
+</li>
+</ul>
+<p>对于 naïve noisy channel modeling 用于 seq2seq model 速度很慢，这篇工作提出一种有效的近似方法，在提高推理速度的同时还提高了准确性。他们在 Romanian-English 翻译任务上达到了新的 SOTA，表明 noise channel modeling 的方法可以达到比 pre-training 更好的效果。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.07347.pdf">Conditioned Natural Language Generation using only Unconditioned Language Model: An Exploration</a></p>
+<ul>
+<li><strong>Author</strong>: Fan-Keng Sun, Cheng-I Lai</li>
+</ul>
+<p>用 Unconditioned LM 来完成 Conditioned NLG，即用 $p(x_t | x_{t-1}, \cdots, x_1)$ 来建模 $p(x_t, x_{t-1}, \cdots, x_1, c)$。这篇工作尝试了 4 种简单有效的方法。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.07593.pdf">Morphologically Aware Word-Level Translation</a></p>
+<ul>
+<li><strong>Author</strong>: Paula Czarnowska, Sebastian Ruder, Ryan Cotterell, Ann Copestake</li>
+<li><strong>Comments</strong>: COLING 2020</li>
+</ul>
+<p>这篇工作针对双语词典推断任务（bilingual lexicon induction, BLI）提出一种新的建模方式，同时考虑 lexeme 和 inflectional morphology。他们的方法在 6 组语言对上取得显著提升。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.07635.pdf">DORB: Dynamically Optimizing Multiple Rewards with Bandits</a></p>
+<ul>
+<li><strong>Author</strong>: Ramakanth Pasunuru,  Han Guo, Mohit Bansal</li>
+<li><strong>Comments</strong>: EMNLP 2020</li>
+<li><strong>Keywords</strong>: RL, MAB, NLG</li>
+</ul>
+<p>NLG 任务中一个比较常见的问题是训练和评估的指标不一致：训练时优化 MLE，而评估时是看 BLEU METEOR 之类的指标，因为许多我们实际关心的指标 non-differentiable，而强化学习的好处是可以直接优化 non-differentiable metrics。如果只优化单一指标，很有可能的现象是模型只在这一个指标上表现好，而其他指标上表现不佳，所以更好的是组合多个指标共同优化模型。但是不同指标在 loss 中的占比应该如何设计，以及随着训练的进行需要如何调整，这一点很难由人工来设计好。这篇工作提出用 Multi-Armed Bandit (MAB) 来组合多个指标，在每一轮决定根据哪个指标来优化模型。他们在两个 NLG 任务上 (question generation, data-to-text generation) 验证了这一方法的有效性。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.07743.pdf">Beyond I.I.D.: Three Levels of Generalization for Question Answering on Knowledge Bases</a></p>
+<ul>
+<li><strong>Author</strong>: Yu Gu, Sue Kase, Michelle Vanni, Brian Sadler, Percy Liang, Xifeng Yan, Yu Su</li>
+<li><strong>Comments</strong>: EMNLP 2020 Workshop</li>
+</ul>
+<p>这篇工作</p>
+<ul>
+<li>
+<p>提出 KBQA 模型需要有三个级别的泛化能力：i.i.d., compositional, zero-shot。</p>
+</li>
+<li>
+<p>发布了一个新的数据集 GRAILQA (64,331 questions)，评估模型在这三个级别上的泛化能力。</p>
+</li>
+<li>
+<p>提出了一个 BERT-based KBQA model。</p>
+</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.07916.pdf">Text Information Aggregation with Centrality Attention</a></p>
+<ul>
+<li><strong>Author</strong>: Jingjing Gong, Hang Yan, Yining Zheng, Qipeng Guo, Xipeng Qiu,  Xuanjing Huang</li>
+<li><strong>Comments</strong>: SCIENCE CHINA Information Sciences</li>
+</ul>
+<p>这篇工作提出一种新的 sentence representation 方法：将句子表示成完全图，节点是句子中的每个单词，然后计算 eigen-centrality 作为每个词的注意力权重。相比于传统的 pooling 等方法在文本分类上得到了更好的效果。</p>
+<p><em>看摘要感觉计算应该比较慢，不知道是否值得。</em></p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.07956.pdf">Pre-training Text-to-Text Transformers for Concept-centric Common Sense</a></p>
+<ul>
+<li><strong>Author</strong>: Wangchunshu Zhou, Dong-Ho Lee, Ravi Kiran Selvam, Seyeon Lee, Bill Yuchen Lin, Xiang Ren</li>
+<li><strong>Keywords</strong>: concept-centric commonsense knowledge, Pre-trained LM</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.07960.pdf">Explicitly Modeling Syntax in Language Model improves Generalization</a></p>
+<ul>
+<li><strong>Author</strong>: Yikang Shen, Shawn Tan, Alessandro Sordoni, Siva Reddy, Aaron Courville</li>
+<li><strong>Keywords</strong>: Syntax, LM, one-step look-ahead parser</li>
+</ul>
+<p>这篇工作提出了一种考虑句法的语言模型  Syntactic Ordered Memory (SOM)。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1911.02969.pdf">BERTs of a feather do not generalize together: Large variability in generalization across models with similar test set performance</a></p>
+<ul>
+<li><strong>Author</strong>: R. Thomas McCoy,  Junghyun Min, Tal Linzen</li>
+</ul>
+<p>这篇工作发现：在 MNLI 数据集上微调 100 遍 BERT，在验证集上达到了相近的表现。而这 100 个模型却体现出了差异巨大的泛化能力。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1911.03863.pdf">Learning to Few-Shot Learn Across Diverse Natural Language Classification Tasks</a></p>
+<ul>
+<li><strong>Author</strong>: Trapit Bansal, Rishikesh Jha, Andrew McCallum</li>
+<li><strong>Comments</strong>: COLING 2020</li>
+<li><strong>Keywords</strong>: Meta-learning</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2009.08445.pdf">Self-Supervised Meta-Learning for Few-Shot Natural Language Classification Tasks</a></p>
+<ul>
+<li><strong>Author</strong>: Trapit Bansal, Rishikesh Jha, Tsendsuren Munkhdalai, Andrew McCallum</li>
+<li><strong>Comments</strong>: EMNLP 2020</li>
+<li><strong>Keywords</strong>: Self-supervised learning, Meta-learning</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.07437.pdf">Non-Autoregressive Machine Translation with Latent Alignments</a></p>
+<ul>
+<li><strong>Author</strong>: Chitwan Saharia, William Chan, Saurabh Saxena, Mohammad Norouzi</li>
+<li><strong>Keywords</strong>: CTC, Imputer, Non-autoregressive model, discrete latent alignment variables</li>
+</ul>
+<p>​</p>
+<p>​</p>
 <h2 id="12-nov-20----13-nov-20">12 Nov 20 &ndash; 13 Nov 20</h2>
 <p>更新于 17 Nov 2020</p>
 <p><a href="https://arxiv.org/pdf/2011.06623.pdf">doc2dial: A Goal-Oriented Document-Grounded Dialogue Dataset</a></p>
