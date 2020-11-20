@@ -18,13 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
+17 Nov 20 &amp;ndash; 18 Nov 20 更新于 20 Nov 2020
+Gunrock 2.0: A User Adaptive Social Conversational System
+ Author: Kai-Hui Liang, Austin Chau, Yu Li, Xueyuan Lu, Dian Yu, Mingyang Zhou, Ishan Jain, Sam Davidson, Josh Arnold, Minh Nguyen, Zhou Yu  University of California 在 Alexa Prize 2020 的参赛模型。
 ​
-16 Nov 20 &amp;ndash; 17 Nov 20 更新于 19 Nov 2020
-Neural Semi-supervised Learning for Text Classification Under Large-Scale Pretraining
- Author: Zĳun Sun, Chun Fan, Xiaofei Sun, Yuxian Meng, Fei Wu, Jiwei Li  这篇工作研究的是：在 large-scale pre-training 广泛被使用的场景下，利用大量无标注 in-domain 语料做 semi-supervised learning 是否还能带来好处，应该选用什么样的 semi-supervised learning 算法，具体应该如何设计。
-最近接连看到好几篇研究 NLP 中 semi-supervised learning 和 pre-training 做对比的 paper，之后再来读一下这一篇。
-​
-Where Are You? Localization from Embodied Dialog</description>
+Sequence-Level Mixed Sample Data Augmentation
+ Author: Demi Guo, Yoon Kim, Alexander M.</description>
     </item>
     
   </channel>
