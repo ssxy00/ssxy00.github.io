@@ -18,6 +18,9 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
+19 Nov 20 &amp;ndash; 20 Nov 20 今天没看到感兴趣的 paper。
+​
+​
 18 Nov 20 &amp;ndash; 19 Nov 20 更新于 23 Nov 2020
 Are Pre-trained Language Models Knowledgeable to Ground Open Domain Dialogues?
  Author: Yufan Zhao, Wei Wu, Can Xu  这篇工作研究了一个问题：对于基于预训练模型的 open-domain knowledge grounded chatbot，参数中储存的知识是否足够呢，或是外部知识库是不可缺少的呢？他们在几个知识型的对话数据集上做微调，发现可以达到比依赖外部知识库的 SOTA 模型达到更好的性能。
