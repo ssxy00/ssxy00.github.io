@@ -157,7 +157,7 @@ code.has-jax {
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              8-minute read
+              9-minute read
             </span>
           </div>
           <div class="authors">
@@ -171,7 +171,64 @@ code.has-jax {
       <div>
         
         <p>最近订阅了 <a href="https://arxiv.org/list/cs.CL/recent">Arxiv cs.CL</a>，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。</p>
+<h2 id="20-nov-20----23-nov-20">20 Nov 20 &ndash; 23 Nov 20</h2>
+<p>更新于 25 Nov 2020</p>
+<p><a href="https://arxiv.org/pdf/2011.10731.pdf">LRTA: A Transparent Neural-Symbolic Reasoning Framework with Modular Supervision for Visual Question Answering</a></p>
+<ul>
+<li><strong>Author</strong>: Weixin Liang, Feiyang Niu, Aishwarya Reganti, Govind Thattai, Gokhan Tur</li>
+<li><strong>Comments</strong>: NeurIPS KR2ML 2020</li>
+</ul>
+<p>这篇文章关注的是主流的 VQA 模型的工作模式缺乏可解释性。他们提出 [[Look, Read, Think, Answer] 的推理框架，让模型按照人类的思考方式，一步一步解决问题，并在每一步给出人类可理解的推理依据。他们的模型在 GQA 数据集上大幅度超过 SOTA。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.10683.pdf">Athena: Constructing Dialogues Dynamically with Discourse Constraints</a></p>
+<ul>
+<li><strong>Author</strong>: Vrindavan Harrison, Juraj Juraska, Wen Cui, Lena Reed, Kevin K. Bowden, Jiaqi Wu, Brian Schwarzmann, Abteen Ebrahimi, Rishi Rajasekaran, Nikhil Varghese, Max Wechsler-Azen, Steve Whittaker, Jeffrey Flanigan, Marilyn Walker</li>
+</ul>
+<p>University of California 在 Alexa Prize 2019 的参赛模型。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.11499.pdf">Unsupervised Domain Adaptation of a Pretrained Cross-Lingual Language Model</a></p>
+<ul>
+<li><strong>Author</strong>: Juntao Li, Ruidan He, Hai Ye, Hwee Tou Ng, Lidong Bing, Rui Yan</li>
+<li><strong>Comments</strong>:  IJCAI-PRICAI2020</li>
+</ul>
+<p>这篇工作研究的是跨语言预训练模型在跨领域 (cross-lingual and cross-domain, CLCD) 场景下的使用。他们提出了一种无监督的特征分解方法，将预训练模型生成的特征表示分解为领域相关 (domain-specific) 和领域无关 (domain-invariant) 的部分。实验表明，他们提出的方法在 CLCD 场景下显著超过 SOTA。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1911.06136.pdf">KEPLER: A Unified Model for Knowledge Embedding and Pre-trained Language Representation</a></p>
+<ul>
+<li><strong>Author</strong>: Xiaozhi Wang, Tianyu Gao, Zhaocheng Zhu, Zhengyan Zhang, Zhiyuan Liu, Juanzi Li, Jian Tang</li>
+<li><strong>Comments</strong>: TACL</li>
+</ul>
+<p>KE + PLM</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1911.08698.pdf">EmpDG: Multi-resolution Interactive Empathetic Dialogue Generation</a></p>
+<ul>
+<li><strong>Author</strong>: Qintong Li, Hongshen Chen, Zhaochun Ren, Pengjie Ren, Zhaopeng Tu, Zhumin Chen</li>
+<li><strong>Comments</strong>: COLING 2020</li>
+</ul>
+<p>这篇工作关注的问题是 empathetic dialogue generation，同时关注 dialogue-level 和 token-level 的 emotion，并通过 adversarial learning 的框架利用用户反馈来训练模型。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2001.11453.pdf">Parameter Space Factorization for Zero-Shot Learning across Tasks and Languages</a></p>
+<ul>
+<li><strong>Author</strong>: Edoardo M. Ponti, Ivan Vulić, Ryan Cotterell, Marinela Parović, Roi Reichart, Anna Korhonen</li>
+</ul>
+<p>NLP 中有很多常用的任务以及很多需要研究的语言，而其中一些语言和任务的组合是缺乏数据的，所以很自然想到的是：假设我们有英语 NER 的数据和德语做 POS tagging 的数据，能不能得到一个做德语 NER 任务的 zero-shot 模型？这篇文章提出了一种针对参数空间的贝叶斯生成模型，借助 latent variable 来表示语言和任务。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.13310.pdf">Self-Attention with Cross-Lingual Position Representation</a></p>
+<ul>
+<li><strong>Author</strong>: Liang Ding, Longyue Wang, Dacheng Tao</li>
+<li><strong>Comments</strong>: ACL 2020</li>
+<li><strong>Keywords</strong>: Self-Attention, Position Encoding, Cross-lingual, Bracketing transduction grammar</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1908.05787.pdf">Integrating Multimodal Information in Large Pretrained Transformers</a></p>
+<ul>
+<li><strong>Author</strong>: Wasifur Rahman, Md. Kamrul Hasan, Sangwu Lee, Amir Zadeh, Chengfeng Mao, Louis-Philippe Morency, Ehsan Hoque</li>
+</ul>
+<p>这篇工作为 BERT 和 XLNet 设计了一个挂件：Multimodal Adaptation Gate (MAG)。MAG 使得 BERT 和 XLNet 在 fine-tuning 过程中可以接受多模态输入。在 CMU-MOSI 数据集上，MAG-XLNet 首次达到人类级别的多模态情感分析水平。</p>
+<p>​</p>
+<p>​</p>
 <h2 id="19-nov-20----20-nov-20">19 Nov 20 &ndash; 20 Nov 20</h2>
+<p>更新于 24 Nov 2020</p>
 <p>今天没看到感兴趣的 paper。</p>
 <p>​</p>
 <p>​</p>
