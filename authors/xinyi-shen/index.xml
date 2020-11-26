@@ -18,12 +18,9 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
-20 Nov 20 &amp;ndash; 23 Nov 20 更新于 25 Nov 2020
-LRTA: A Transparent Neural-Symbolic Reasoning Framework with Modular Supervision for Visual Question Answering
- Author: Weixin Liang, Feiyang Niu, Aishwarya Reganti, Govind Thattai, Gokhan Tur Comments: NeurIPS KR2ML 2020  这篇文章关注的是主流的 VQA 模型的工作模式缺乏可解释性。他们提出 [[Look, Read, Think, Answer] 的推理框架，让模型按照人类的思考方式，一步一步解决问题，并在每一步给出人类可理解的推理依据。他们的模型在 GQA 数据集上大幅度超过 SOTA。
-​
-Athena: Constructing Dialogues Dynamically with Discourse Constraints
- Author: Vrindavan Harrison, Juraj Juraska, Wen Cui, Lena Reed, Kevin K.</description>
+23 Nov 20 &amp;ndash; 24 Nov 20 更新于 26 Nov 2020
+GLGE: A New General Language Generation Evaluation Benchmark
+ Author: Dayiheng Liu, Yu Yan, Yeyun Gong, Weizhen Qi, Hang Zhang, Jian Jiao, Weizhu Chen, Jie Fu, Linjun Shou, Ming Gong, Pengcheng Wang, Jiusheng Chen, Daxin Jiang, Jiancheng Lv, Ruofei Zhang, Winnie Wu, Ming Zhou, Nan Duan  这篇工作提出了一个针对 Natural Language Generation (NLG) 的 benchmark，覆盖 8 个任务和 3 个难度级别，共 24 个子任务。</description>
     </item>
     
   </channel>
