@@ -18,9 +18,11 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
-23 Nov 20 &amp;ndash; 24 Nov 20 更新于 26 Nov 2020
-GLGE: A New General Language Generation Evaluation Benchmark
- Author: Dayiheng Liu, Yu Yan, Yeyun Gong, Weizhen Qi, Hang Zhang, Jian Jiao, Weizhu Chen, Jie Fu, Linjun Shou, Ming Gong, Pengcheng Wang, Jiusheng Chen, Daxin Jiang, Jiancheng Lv, Ruofei Zhang, Winnie Wu, Ming Zhou, Nan Duan  这篇工作提出了一个针对 Natural Language Generation (NLG) 的 benchmark，覆盖 8 个任务和 3 个难度级别，共 24 个子任务。</description>
+24 Nov 20 &amp;ndash; 25 Nov 20 更新于 27 Nov 2020
+Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach
+ Author: Maosen Zhang, Nan Jiang, Lei Li, Yexiang Xue Keywords: controllable text generation, Pretrained-LM, Markov chain Monte Carlo (MCMC)  ​
+Learning to Expand: Reinforced Pseudo-relevance Feedback Selection for Information-seeking Conversations
+ Author: Haojie Pan, Cen Chen, Minghui Qiu, Liu Yang, Feng Ji, Jun Huang, Haiqing Chen Keywords: Pseudo-relevance feedback selection, Reinforcement learning, BERT, Info-seeking conversations  ​</description>
     </item>
     
   </channel>
