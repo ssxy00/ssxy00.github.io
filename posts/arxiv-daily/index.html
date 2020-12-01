@@ -157,7 +157,7 @@ code.has-jax {
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              10-minute read
+              12-minute read
             </span>
           </div>
           <div class="authors">
@@ -171,6 +171,68 @@ code.has-jax {
       <div>
         
         <p>最近订阅了 <a href="https://arxiv.org/list/cs.CL/recent">Arxiv cs.CL</a>，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。</p>
+<h2 id="25-nov-20----27-nov-20">25 Nov 20 &ndash; 27 Nov 20</h2>
+<p>更新于 1 Dec 2020</p>
+<p><a href="https://arxiv.org/pdf/2011.13137.pdf">Answering Ambiguous Questions through Generative Evidence Fusion and Round-Trip Prediction</a></p>
+<ul>
+<li><strong>Author</strong>: Yifan Gao, Henghui Zhu, Patrick Ng, Cicero Nogueira dos Santos, Zhiguo Wang, Feng Nan, Dejiao Zhang, Ramesh Nallapati, Andrew O. Arnold, Bing Xiang</li>
+<li><strong>Keywords</strong>: QA, ambiguous question, evdience fusion, round-trip prediction</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.13200.pdf">Unsupervised Word Translation Pairing using Refinement based Point Set Registration</a></p>
+<ul>
+<li><strong>Author</strong>: Silviu Oprea, Sourav Dutta, Haytham Assem</li>
+<li><strong>Keywords</strong>: unsupervised word translation, adversarial initialization, refinement procedure , point set registration algorithm</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.13231.pdf">NLPStatTest: A Toolkit for Comparing NLP System Performance</a></p>
+<ul>
+<li><strong>Author</strong>: Haotian Zhu, Denise Mak, Jesse Gioannini, Fei Xia</li>
+<li><strong>Comments</strong>: AACL-IJCNLP 2020</li>
+<li><strong>Keywords</strong>: NLP system comparsion toolkit</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.13477.pdf">Decoding and Diversity in Machine Translation</a></p>
+<ul>
+<li><strong>Author</strong>: Nicholas Roberts, Davis Liang, Graham Neubig, Zachary C. Lipton</li>
+<li><strong>Comments</strong>: Resistance AI Workshop, NeurIPS 2020</li>
+</ul>
+<p><em>&lsquo;Our study implicates search as a salient source of known bias when translating gender pronouns.'</em></p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.13527.pdf"><strong>TaylorGAN: Neighbor-Augmented Policy Update for Sample-Efficient Natural Language Generation</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Chun-Hsing, Lin Siang-Ruei, Wu Hung-Yi Lee, Yun-Nung Chen</li>
+<li><strong>Comments</strong>: NeurIPS 2020</li>
+<li><strong>Keywords</strong>: NLG, REINFORCE, sample efficiency, first-order Taylor expansion</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.13534.pdf">A Survey of Deep Learning Approaches for OCR and Document Understanding</a></p>
+<ul>
+<li><strong>Author</strong>: Nishant Subramani, Alexandre Matton, Malcolm Greaves, Adrian Lam</li>
+<li><strong>Comments</strong>: ML-RSA Workshop, NeurIPS 2020</li>
+</ul>
+<p><em>不太了解这个方向，有缘再读</em></p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.13633.pdf">CoRe: An Efficient Coarse-refined Training Framework for BERT</a></p>
+<ul>
+<li><strong>Author</strong>: Cheng Yang, Shengnan Wang, Yuechuan Li, Chao Yang, Ming Yan, Jingqiao Zhang, Fangquan Lin</li>
+</ul>
+<p>这篇工作关注的是降低 BERT 预训练的代价。他们提出的训练框架 CoRe 在训练初期通过 fast attention mechanism 和 decomposing the large parameters 用更短的时间来得到一个较好的参数初始化，然后再恢复为标准的 BERT 继续训练。他们的训练框架在大大缩短了训练时间的同时结果不降。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2011.13635.pdf">Progressively Stacking 2.0: A Multi-stage Layerwise Training Method for BERT Training Speedup</a></p>
+<ul>
+<li><strong>Author</strong>: Cheng Yang, Shengnan Wang, Chao Yang, Yuechuan Li, Ru He, Jingqiao Zhang</li>
+</ul>
+<p>另一篇关注 BERT 预训练效率的文章。这篇文章提出一种多阶段训练 BERT 的方式，开始只从较少的层数训练，而后逐渐加深层数（靠近输出端），并且每次只训练新加的层，之前的层参数固定。这一方法可以达到超过 110% 的加速，同时模型效果方面没有显著的下降。</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2005.12086.pdf">Stable Style Transformer: Delete and Generate Approach with Encoder-Decoder for Text Style Transfer</a></p>
+<ul>
+<li><strong>Author</strong>: Joosung Lee</li>
+<li><strong>Comments</strong>: INLG 2020</li>
+</ul>
+<p>Two-stage 文本风格迁移：第一阶段删除句子中属性相关的词，第二阶段结合第一阶段的删除结果和目标属性生成风格迁移后的句子。</p>
+<p>​</p>
+<p>​</p>
 <h2 id="24-nov-20----25-nov-20">24 Nov 20 &ndash; 25 Nov 20</h2>
 <p>更新于 27 Nov 2020</p>
 <p><a href="https://arxiv.org/pdf/2011.12334.pdf">Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach</a></p>

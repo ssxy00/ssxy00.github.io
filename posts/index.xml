@@ -18,11 +18,10 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
-24 Nov 20 &amp;ndash; 25 Nov 20 更新于 27 Nov 2020
-Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach
- Author: Maosen Zhang, Nan Jiang, Lei Li, Yexiang Xue Keywords: controllable text generation, Pretrained-LM, Markov chain Monte Carlo (MCMC)  ​
-Learning to Expand: Reinforced Pseudo-relevance Feedback Selection for Information-seeking Conversations
- Author: Haojie Pan, Cen Chen, Minghui Qiu, Liu Yang, Feng Ji, Jun Huang, Haiqing Chen Keywords: Pseudo-relevance feedback selection, Reinforcement learning, BERT, Info-seeking conversations  ​</description>
+25 Nov 20 &amp;ndash; 27 Nov 20 更新于 1 Dec 2020
+Answering Ambiguous Questions through Generative Evidence Fusion and Round-Trip Prediction
+ Author: Yifan Gao, Henghui Zhu, Patrick Ng, Cicero Nogueira dos Santos, Zhiguo Wang, Feng Nan, Dejiao Zhang, Ramesh Nallapati, Andrew O. Arnold, Bing Xiang Keywords: QA, ambiguous question, evdience fusion, round-trip prediction  ​
+Unsupervised Word Translation Pairing using Refinement based Point Set Registration</description>
     </item>
     
   </channel>
