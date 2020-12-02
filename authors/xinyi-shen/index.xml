@@ -18,10 +18,11 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily/</guid>
       <description>最近订阅了 Arxiv cs.CL，希望能坚持每天刷一刷，了解一下 NLP 领域的最新文献。在这篇博客中我会记录每天刷到的感兴趣的工作。
-25 Nov 20 &amp;ndash; 27 Nov 20 更新于 1 Dec 2020
-Answering Ambiguous Questions through Generative Evidence Fusion and Round-Trip Prediction
- Author: Yifan Gao, Henghui Zhu, Patrick Ng, Cicero Nogueira dos Santos, Zhiguo Wang, Feng Nan, Dejiao Zhang, Ramesh Nallapati, Andrew O. Arnold, Bing Xiang Keywords: QA, ambiguous question, evdience fusion, round-trip prediction  ​
-Unsupervised Word Translation Pairing using Refinement based Point Set Registration</description>
+27 Nov 20 &amp;ndash; 30 Nov 20 更新于 2 Dec 2020
+Latent Template Induction with Gumbel-CRFs
+ Author: Yao Fu, Chuanqi Tan, Bin Bi, Mosha Chen, Yansong Feng, Alexander M. Rush Comments: NeurIPS 2020  ​
+Generative Pre-training for Paraphrase Generation by Representing and Predicting Spans in Exemplars
+ Author: Tien-Cuong Bui, Van-Duc Le, Hai-Thien To, Sang Kyun Cha Comments: IEEE International Conference on Big Data and Smart Computing 2021 Keywords: masking, predicting  ​</description>
     </item>
     
   </channel>
