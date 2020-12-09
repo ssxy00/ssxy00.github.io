@@ -18,12 +18,11 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2012/</guid>
       <description>这篇博客记录的是 2020 年 12 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-3 Dec 20 &amp;ndash; 4 Dec 20 更新于 7 Dec 2020
-DDRel: A New Dataset for Interpersonal Relation Classification in Dyadic Dialogues
- Author: Qi Jia, Hongru Huang, Kenny Q. Zhu Comments: AAAI 2020  ​
-Knowledge-Driven Distractor Generation for Cloze-Style Multiple Choice Questions
- Author: Siyu Ren, Kenny Q. Zhu Comments: AAAI 2020  ​
-Fine-tuning BERT for Low-Resource Natural Language Understanding</description>
+4 Dec 20 &amp;ndash; 7 Dec 20 更新于 9 Dec 2020
+Cross-Domain Sentiment Classification with In-Domain Contrastive Learning
+ Author: Tian Li, Xiang Chen, Shanghang Zhang, Zhen Dong, Kurt Keutzer Comments: NeurIPS 2020 Workshop on Self-supervised Learning  ​
+Data Boost: Text Data Augmentation Through Reinforcement Learning Guided Conditional Generation
+ Author: Ruibo Liu, Guangxuan Xu, Chenyan Jia, Weicheng Ma, Lili Wang, Soroush Vosoughi Comments: EMNLP 2020  &amp;lsquo;In this paper, we present a powerful and easy to deploy text augmentation framework, Data Boost, which augments data through reinforcement learning guided conditional generation.</description>
     </item>
     
     <item>
