@@ -18,13 +18,9 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2012/</guid>
       <description>这篇博客记录的是 2020 年 12 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-24 Dec 20 &amp;ndash; 28 Dec 20 更新于 31 Dec 2020
-Towards a Universal Continuous Knowledge Base
- Author: Gang Chen, Maosong Sun, Yang Liu  ​
-Contextual Temperature for Language Modeling
- Author: Pei-Hsin Wang, Sheng-Iou Hsieh, Shih-Chieh Chang, Yu-Ting Chen, Jia-Yu Pan, Wei Wei, Da-Chang Juan  ​
-LOREN: Logic Enhanced Neural Reasoning for Fact Verification
- Author: Jiangjie Chen, Qiaoben Bao, Jiaze Chen, Changzhi Sun, Hao Zhou, Yanghua Xiao, Lei Li  ​</description>
+28 Dec 20 &amp;ndash; 31 Dec 20 更新于 11 Jan 2021
+Robust Dialogue Utterance Rewriting as Sequence Tagging
+ Author: Jie Hao, Linfeng Song, Liwei Wang, Kun Xu, Zhaopeng Tu, Dong Yu  dialogue utterance rewriting: The task aims to reconstruct the latest dialogue utterance into a new utterance that is semantically equivalent to the original one and can be understood without referring to the context.</description>
     </item>
     
     <item>
