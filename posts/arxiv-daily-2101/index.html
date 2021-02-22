@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Xinyi Shen">
+    <meta name="description" content="arxiv Daily Reading">
+    <meta name="keywords" content="NLPer">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="arxiv Daily Reading"/>
+
+    <meta property="og:title" content="" />
+<meta property="og:description" content="arxiv Daily Reading" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ssxy00.github.io/posts/arxiv-daily-2101/" />
+<meta property="article:published_time" content="2021-02-02T16:09:37+08:00" />
+<meta property="article:modified_time" content="2021-02-02T16:09:37+08:00" />
+
+
+    <title>
+   · Xinyi Shen
+</title>
+
+    
+      <link rel="canonical" href="http://ssxy00.github.io/posts/arxiv-daily-2101/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.62.2" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Xinyi Shen
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+<script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title"></h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-02-02T16:09:37&#43;08:00'>
+                February 2, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              16-minute read
+            </span>
+          </div>
+          <div class="authors">
+    <i class="fa fa-user" aria-hidden="true"></i>
+      <a href="/authors/xinyi-shen/">Xinyi Shen</a></div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        
+        <p>这篇博客记录的是 2021 年 1 月内刷到的 <a href="https://arxiv.org/list/cs.CL/recent">Arxiv cs.CL</a> 感兴趣的文献。</p>
+<h2 id="29-jan-21----1-feb-21">29 Jan 21 &ndash; 1 Feb 21</h2>
+<p>更新于 22 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2102.00677.pdf">Hierarchical Ranking for Answer Selection</a></p>
+<ul>
+<li><strong>Author</strong>: Hang Gao, Mengting Hu, Renhong Cheng, Tiegang Gao</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2102.00894.pdf">Multilingual LAMA: Investigating Knowledge in Multilingual Pretrained Language Models</a></p>
+<ul>
+<li><strong>Author</strong>: Nora Kassner, Philipp Dufter, Hinrich Schütze</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>&lsquo;Working with mBERT, we investigate three questions. (i) Can mBERT be used as a multilingual knowledge base? Most prior work only considers English. Extending research to multiple languages is important for diversity and accessibility. (ii) Is mBERT's performance as knowledge base language-independent or does it vary from language to language? (iii) A multilingual model is trained on more text, e.g., mBERT is trained on 104 Wikipedias. Can mBERT leverage this for better performance?&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2102.01017.pdf">Measuring and Improving Consistency in Pretrained Language Models</a></p>
+<ul>
+<li><strong>Author</strong>: Yanai Elazar, Nora Kassner, Shauli Ravfogel, Abhilasha Ravichander, Eduard Hovy, Hinrich Schütze, Yoav Goldberg</li>
+</ul>
+<p>&lsquo;We create PARAREL, a high-quality resource of cloze-style query English paraphrases. It contains a total of 328 paraphrases for thirty-eight relations. Using PARAREL, we show that the consistency of all PLMs we experiment with is poor – though with high variance between relations.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2102.01065.pdf">Can Small and Synthetic Benchmarks Drive Modeling Innovation? A Retrospective Study of Question Answering Modeling Approaches</a></p>
+<ul>
+<li><strong>Author</strong>: Nelson F. Liu, Tony Lee, Robin Jia, Percy Liang</li>
+</ul>
+<p>&lsquo;Our results raise the intriguing possibility that small and carefully designed synthetic benchmarks may be useful for driving the development of new modeling approaches.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2003.02245.pdf">Data Augmentation Using Pre-trained Transformer Models</a></p>
+<ul>
+<li><strong>Author</strong>: Varun Kumar, Ashutosh Choudhary, Eunah Cho</li>
+<li><strong>Comments</strong>: In Proceedings of the 2nd Workshop on Life-long Learning for Spoken Language Systems @ AACL 2020</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.13820.pdf">Evolution of Semantic Similarity - A Survey</a></p>
+<ul>
+<li><strong>Author</strong>: Dhivya Chandrasekaran, Vijay Mago</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="28-jan-21----29-jan-21">28 Jan 21 &ndash; 29 Jan 21</h2>
+<p>更新于 22 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.12294.pdf">Combining pre-trained language models and structured knowledge</a></p>
+<ul>
+<li><strong>Author</strong>: Pedro Colon-Hernandez, Catherine Havasi, Jason Alonso, Matthew Huggins, Cynthia Breazeal</li>
+</ul>
+<p>survey</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.12640.pdf">Transition-based Graph Decoder for Neural Machine Translation</a></p>
+<ul>
+<li><strong>Author</strong>: Leshem Choshen, Omri Abend</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1905.08701.pdf"><strong>Approximating probabilistic models as weighted finite automata</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Ananda Theertha Suresh, Brian Roark, Michael Riley, Vlad Schogol</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.03658.pdf">Faithful Embeddings for Knowledge Base Queries</a></p>
+<ul>
+<li><strong>Author</strong>: Haitian Sun, Andrew O. Arnold, Tania Bedrax-Weiss, Fernando Pereira William, W. Cohen</li>
+<li><strong>Comments</strong>: NeurIPS 2020</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="27-jan-21----28-jan-21">27 Jan 21 &ndash; 28 Jan 21</h2>
+<p>更新于 22 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.11836.pdf">DRAG: Director-Generator Language Modelling Framework for Non-Parallel Author Stylized Rewriting</a></p>
+<ul>
+<li><strong>Author</strong>: Hrituraj Singh, Gaurav Verma, Aparna Garimella, Balaji Vasan Srinivasan</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>style transfer</p>
+<p>​</p>
+<p>​</p>
+<h2 id="26-jan-21----27-jan-21">26 Jan 21 &ndash; 27 Jan 21</h2>
+<p>更新于 22 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.11038.pdf">Muppet: Massive Multi-task Representations with Pre-Finetuning</a></p>
+<ul>
+<li><strong>Author</strong>: Armen Aghajanyan, Anchit Gupta, Akshat Shrivastava, Xilun Chen, Luke Zettlemoyer, Sonal Gupta</li>
+</ul>
+<p>Pre-finetuning: An additional largescale learning stage between language model pre-training and fine-tuning.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.11040.pdf">A Comparison of Approaches to Document-level Machine Translation</a></p>
+<ul>
+<li><strong>Author</strong>: Zhiyi Ma, Sergey Edunov, Michael Auli</li>
+</ul>
+<p>&lsquo;This paper presents a systematic comparison of selected approaches from the literature on two benchmarks for which documentlevel phenomena evaluation suites exist.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.11204.pdf">Joint Coreference Resolution and Character Linking for Multiparty Conversation</a></p>
+<ul>
+<li><strong>Author</strong>: Jiaxin Bai, Hongming Zhang, Yangqiu Song, Kun Xu</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.11360.pdf">An Empirical Study of Cross-Lingual Transferability in Generative Dialogue State Tracker</a></p>
+<ul>
+<li><strong>Author</strong>: Yen-Ting Lin, Yun-Nung Chen</li>
+<li><strong>Comments</strong>: DSTC9 Workshop - AAAI</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.11420.pdf">Recent Trends in Named Entity Recognition (NER)</a></p>
+<ul>
+<li><strong>Author</strong>: Arya Roy</li>
+</ul>
+<p>survey</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.11492.pdf">On the Evolution of Syntactic Information Encoded by BERT’s Contextualized Representations</a></p>
+<ul>
+<li><strong>Author</strong>: Laura Pérez-Mayos, Roberto Carlini, Miguel Ballesteros, Leo Wanner</li>
+</ul>
+<p>&lsquo;In this paper, we analyze the evolution of the embedded syntax trees along the fine-tuning process of BERT for six different tasks, covering all levels of the linguistic structure. Experimental results show that the encoded syntactic information is forgotten (PoS tagging), reinforced (dependency and constituency parsing) or preserved (semanticsrelated tasks) in different ways along the finetuning process depending on the task.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2008.09084.pdf">Do Syntax Trees Help Pre-trained Transformers Extract Information?</a></p>
+<ul>
+<li><strong>Author</strong>: Devendra Singh Sachan, Yuhao Zhang, Peng Qi, William Hamilton</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="25-jan-21----26-jan-21">25 Jan 21 &ndash; 26 Jan 21</h2>
+<p>更新于 22 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.10421.pdf">English Machine Reading Comprehension Datasets: A Survey</a></p>
+<ul>
+<li><strong>Author</strong>: Daria Dzendzik, Carl Vogel, Jennifer Foster</li>
+</ul>
+<p>54 English MRC datasets</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.10545.pdf">RESPER : Computationally Modelling Resisting Strategies in Persuasive Conversations.</a></p>
+<ul>
+<li><strong>Author</strong>: Ritam Dutt, Sayan Sinha, Rishabh Joshi, Surya Shekhar Chakraborty, Meredith Riggs, Xinru Yan, Haogang Bao, Carolyn Penstein Rosé</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.10565.pdf">Coloring the Black Box: What Synesthesia Tells Us about Character Embeddings</a></p>
+<ul>
+<li><strong>Author</strong>: Katharina Kann, Mauro M. Monsalve-Mercado</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>对 character-level embedding 的研究</p>
+<p>&lsquo;We find that LSTMs agree with humans more than transformers.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.10579.pdf">Generating Syntactically Controlled Paraphrases without Using Annotated Parallel Pairs</a></p>
+<ul>
+<li><strong>Author</strong>: Kuan-Hao Huang, Kai-Wei Chang</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>利用 unannotated data 学习生成 syntactically controllable 的 paraphrase 模型</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.10917.pdf">I Beg to Differ: A study of constructive disagreement in online conversations</a></p>
+<ul>
+<li><strong>Author</strong>: Christine De Kock, Andreas Vlachos</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.10927.pdf">Attention Can Reflect Syntactic Structure (If You Let It)</a></p>
+<ul>
+<li><strong>Author</strong>: Vinit Ravishankar, Artur Kulmizev, Mostafa Abdou, Anders Søgaard, Joakim Nivre</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.10382.pdf">Curriculum Learning: A Survey</a></p>
+<ul>
+<li><strong>Author</strong>: Petru Soviany, Radu Tudor Ionescu, Paolo Rota,  Nicu Sebe</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2008.09290.pdf">Don’t Change Me! User-Controllable Selective Paraphrase Generation</a></p>
+<ul>
+<li><strong>Author</strong>: Mohan Zhang, Luchen Tan, Zhengkai Tu, Zihang Fu, Kun Xiong, Ming Li, Jimmy Lin</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>' Our solution to this challenge is to provide the user with explicit tags that can be placed around any arbitrary segment of text to mean “don’t change me!” when generating a paraphrase; the model learns to explicitly copy these phrases to the output.&rsquo;</p>
+<p>​</p>
+<p>​</p>
+<h2 id="22-jan-21----25-jan-21">22 Jan 21 &ndash; 25 Jan 21</h2>
+<p>更新于 21 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.09469.pdf">Training Multilingual Pre-trained Language Model with Byte-level Subwords</a></p>
+<ul>
+<li><strong>Author</strong>: Junqiu Wei, Qun Liu, Yinpeng Guo, Xin Jiang</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.09647.pdf"><strong>Does Dialog Length matter for Next Response Selection task? An Empirical Study.</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Jatin Ganhotra, Sachindra Joshi</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.09698.pdf">Fast Sequence Generation with Multi-Agent Reinforcement Learning</a></p>
+<ul>
+<li><strong>Author</strong>: Longteng Guo, Jing Liu, Xinxin Zhu, Hanqing Lu</li>
+</ul>
+<p>&lsquo;s. In this paper, we propose a simple and efficient model for Non-Autoregressive sequence Generation (NAG) with a novel training paradigm: Counterfactuals-critical Multi-Agent Learning (CMAL).&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.09755.pdf"><strong>RomeBERT: Robust Training of Multi-Exit BERT</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Shijie Geng, Peng Gao, Zuohui Fu, Yongfeng Zhang</li>
+</ul>
+<p>early exit</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.10070.pdf">RelWalk – A Latent Variable Model Approach to Knowledge Graph Embedding</a></p>
+<ul>
+<li><strong>Author</strong>: Danushka Bollegala, Huda Hakami, Yuichi Yoshida, Ken-ichi Kawarabayashi</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>&lsquo;We show that marginal loss minimisation, a popular objective used in much prior work in KGE, follows naturally from the loglikelihood ratio maximisation under the probabilities estimated from the KGEs according to our theoretical relationship.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.09459.pdf">Advances and Challenges in Conversational Recommender Systems: A Survey</a></p>
+<ul>
+<li><strong>Author</strong>: Chongming Gao, Wenqiang Lei, Xiangnan He, Maarten de Rijke, Tat-Seng Chua</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.02990.pdf"><strong>Evaluating the Evaluation of Diversity in Natural Language Generation</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Guy Tevet, Jonathan Berant</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.10809.pdf">Polarized-VAE: Proximity Based Disentangled Representation Learning for Text Generation</a></p>
+<ul>
+<li><strong>Author</strong>: Vikash Balasubramanian, Ivan Kobyzev, Hareesh Bahuleyan, Ilya Shapiro, Olga Vechtomova</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2005.00247.pdf">AdapterFusion: Non-Destructive Task Composition for Transfer Learning</a></p>
+<ul>
+<li><strong>Author</strong>: Jonas Pfeiffer, Aishwarya Kamath, Andreas Rücklé, Kyunghyun Cho, Iryna Gurevych</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>&lsquo;We propose AdapterFusion, a new two stage learning algorithm that leverages knowledge from multiple tasks.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.14503.pdf">Zero-shot Neural Passage Retrieval via Domain-targeted Synthetic Question Generation</a></p>
+<ul>
+<li><strong>Author</strong>: Ji Ma, Ivan Korotkov, Yinfei Yang, Keith Hall, Ryan McDonald</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="21-jan-21----22-jan-21">21 Jan 21 &ndash; 22 Jan 21</h2>
+<p>更新于 21 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.08890.pdf"><strong>Distilling Large Language Models into Tiny and Effective Students using pQRNN</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Prabhu Kaliamoorthi, Aditya Siddhant, Edward Li, Melvin Johnson</li>
+</ul>
+<p>(1) Without pre-training, pQRNNs significantly outperform LSTM models with pre-trained embeddings despite being 140x smaller.</p>
+<p>(2) With the same number of parameters, they outperform transformer baselines thereby showcasing their parameter efficiency.</p>
+<p>(3) Additionally, we show that pQRNNs are effective student architectures for distilling large pretrained language models.</p>
+<p>new architecture?</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.08942.pdf">Enriching Non-Autoregressive Transformer with Syntactic and Semantic Structures for Neural Machine Translation</a></p>
+<ul>
+<li><strong>Author</strong>: Ye Liu, Yao Wan, Jian-Guo Zhang, Wenting Zhao, Philip S. Yu</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>在 embedding 部分加入</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.09115.pdf">The heads hypothesis: A unifying statistical approach towards understanding multi-headed attention in BERT</a></p>
+<ul>
+<li><strong>Author</strong>: Madhura Pande, Aakriti Budhraja, Preksha Nema, Pratyush Kumar, Mitesh M. Khapra</li>
+<li><strong>Comments</strong>: AAAI 2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2001.04246.pdf">AdaBERT: Task-Adaptive BERT Compression with Differentiable Neural Architecture Search</a></p>
+<ul>
+<li><strong>Author</strong>: Daoyuan Chen, Yaliang Li, Minghui Qiu, Zhen Wang, Bofang Li, Bolin Ding, Hongbo Deng, Jun Huang, Wei Lin, Jingren Zhou</li>
+<li><strong>Comments</strong>: IJCAI 2020</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.12752.pdf">The Gutenberg Dialogue Dataset</a></p>
+<ul>
+<li><strong>Author</strong>: Richard Csaky, Gábor Recski</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>Dialogue Dataset</p>
+<p>&lsquo;We conduct experiments showing that better response quality can be achieved in zero-shot and finetuning settings by training on our data than on the larger but much noisier Opensubtitles dataset.&rsquo;</p>
+<p>utterances: 14.8M</p>
+<p>average dialogue length: 5.85</p>
+<p>​</p>
+<p>​</p>
+<h2 id="20-jan-21----21-jan-21">20 Jan 21 &ndash; 21 Jan 21</h2>
+<p>更新于 20 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.08382.pdf">ParaSCI: A Large Scientific Paraphrase Dataset for Longer Paraphrase Generation</a></p>
+<ul>
+<li><strong>Author</strong>: Qingxiu Dong, Xiaojun Wan, Yue Cao</li>
+</ul>
+<p>Paraphrase 数据集</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.08426.pdf">Content Selection Network for Document-grounded Retrieval-based Chatbots</a></p>
+<ul>
+<li><strong>Author</strong>: Yutao Zhu, Jian-Yun Nie, Kun Zhou, Pan Du, Zhicheng Dou</li>
+<li><strong>Comments</strong>: ECIR 2021</li>
+</ul>
+<p>&lsquo;In this paper, we propose a document content selection network (CSN) to perform explicit selection of relevant document contents, and filter out the irrelevant parts.&rsquo;</p>
+<p>在 Persona Chat 数据集上做了实验</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2009.12677.pdf">KG-BART: Knowledge Graph-Augmented BART for Generative Commonsense Reasoning</a></p>
+<ul>
+<li><strong>Author</strong>: Ye Liu, Yao Wan, Lifang He, Hao Peng, Philip S. Yu</li>
+<li><strong>Comments</strong>: AAAI 2021</li>
+</ul>
+<p>&lsquo;To promote the ability of commonsense reasoning for text generation, we propose a novel knowledge graphaugmented pre-trained language generation model KG-BART, which encompasses the complex relations of concepts through the knowledge graph and produces more logical and natural sentences as output.&rsquo;</p>
+<p>​</p>
+<p>​</p>
+<h2 id="19-jan-21----20-jan-21">19 Jan 21 &ndash; 20 Jan 21</h2>
+<p>更新于 10 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.07947.pdf">WeChat AI’s Submission for DSTC9 Interactive Dialogue Evaluation Track</a></p>
+<ul>
+<li><strong>Author</strong>: Zekang Li, Zongjia Li, Jinchao Zhang, Yang Feng, Jie Zhou</li>
+<li><strong>Comments</strong>: DSTC9@AAAI2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.08114.pdf">Classifying Scientific Publications with BERT - Is Self-Attention a Feature Selection Method?</a></p>
+<ul>
+<li><strong>Author</strong>: Andres Garcia-Silva, Jose Manuel, Gomez-Perez</li>
+<li><strong>Comments</strong>: ECIR2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.08133.pdf">Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates</a></p>
+<ul>
+<li><strong>Author</strong>: Artem Shelmanov, Dmitri Puzyrev, Lyubov Kupriyanova, Denis Belyakov, Daniil Larionov, Nikita Khromov, Olga Kozlova, Ekaterina Artemova, Dmitry V. Dylov, Alexander Panchenko</li>
+<li><strong>Comments</strong>: EACL-2020</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.08231.pdf">Word Alignment by Fine-tuning Embeddings on Parallel Corpora</a></p>
+<ul>
+<li><strong>Author</strong>: Zi-Yi Dou, Graham Neubig</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="18-jan-21----19-jan-21">18 Jan 21 &ndash; 19 Jan 21</h2>
+<p>更新于 10 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.07393.pdf">Grounding Language to Entities and Dynamics for Generalization in Reinforcement Learning</a></p>
+<ul>
+<li><strong>Author</strong>: H. J. Austin Wang, Karthik Narasimhan</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.07714.pdf">Towards Facilitating Empathic Conversations in Online Mental Health Support: A Reinforcement Learning Approach</a></p>
+<ul>
+<li><strong>Author</strong>: Ashish Sharma, Inna W. Lin, Adam S. Miner, David C. Atkins, Tim Althof</li>
+<li><strong>Comments</strong>: WWW 2021</li>
+</ul>
+<p>&lsquo;Here we propose Partner, a deep reinforcement learning (RL) agent that learns to make sentence-level edits to posts in order to increase the expressed level of empathy while maintaining conversation quality.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.07382.pdf">A Comparison of Question Rewriting Methods for Conversational Passage Retrieval</a></p>
+<ul>
+<li><strong>Author</strong>: Svitlana Vakulenko, Nikos Voskarides, Zhucheng Tu, Shayne Longpre</li>
+<li><strong>Comments</strong>:  ECIR 2021 short paper</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1911.03437.pdf"><strong>SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao, Tuo Zhao</li>
+<li><strong>Comments</strong>: ACL 2020</li>
+<li><strong>Keywords</strong>: Smoothness-inducing regularization, Bregman proximal point optimization</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="15-jan-21----18-jan-21">15 Jan 21 &ndash; 18 Jan 21</h2>
+<p>更新于 5 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.06351.pdf">Weakly-Supervised Hierarchical Models for Predicting Persuasion Strategies</a></p>
+<ul>
+<li><strong>Author</strong>: Jiaao Chen, Diyi Yang</li>
+<li><strong>Comments</strong>: AAAI 2021</li>
+</ul>
+<p>&lsquo;We introduce a large-scale multi-domain text corpus for modeling persuasive strategies in good-faith text requests. Moreover, we design a hierarchical weakly-supervised latent variable model that can leverage partially labeled data to predict such associated persuasive strategies for each sentence.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06397.pdf">To Understand Representation of Layer-aware Sequence Encoders as Multi-order-graph</a></p>
+<ul>
+<li><strong>Author</strong>: Sufeng Duan, Hai Zhao, Rui Wang</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06400.pdf">ComQA:Compositional Question Answering via Hierarchical Graph Neural Networks</a></p>
+<ul>
+<li><strong>Author</strong>: Bingning Wang, Ting Yao, Weipeng Chen, Jingfang Xu, Xiaochuan Wang</li>
+<li><strong>Comments</strong>: WWW 2021</li>
+</ul>
+<p>(1) We present a largescale compositional question answering dataset containing more than 120k human-labeled questions. (2)  We proposed a hierarchical graph neural networks, which represent the document from the low-level word to the high-level sentence. (3) We also devise a question selection and node selection task for pre-training.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06423.pdf">Match-Ignition: Plugging PageRank into Transformer for Long-form Text Matching</a></p>
+<ul>
+<li><strong>Author</strong>: Liang Pang, Yanyan Lan, Xueqi Cheng</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06561.pdf">GENIE: A Leaderboard for Human-in-the-Loop Evaluation of Text Generation</a></p>
+<ul>
+<li><strong>Author</strong>: Daniel Khashabi, Gabriel Stanovsky, Jonathan Bragg, Nicholas Lourie, Jungo Kasai, Yejin Choi, Noah A. Smith, Daniel S. Weld</li>
+</ul>
+<p><a href="https://genie.apps.allenai.org/">https://genie.apps.allenai.org/</a></p>
+<p>​</p>
+<p><a href="">What Makes Good In-Context Examples for GPT-3?</a></p>
+<ul>
+<li><strong>Author</strong>: Jiachang Liu, Dinghan Shen, Yizhe Zhang, Bill Dolan, Lawrence Carin, Weizhu Chen</li>
+</ul>
+<p>对 GPT-3 few-shot capability 的研究</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06829.pdf">Joint Energy-based Model Training for Better Calibrated Natural Language Understanding Models</a></p>
+<ul>
+<li><strong>Author</strong>: Tianxing He, Bryan McCann, Caiming Xiong, Ehsan Hosseini-Asl</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+<li><strong>Keywords</strong>: Energy-based Model, Noise Contrastive Estimation</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06887.pdf"><strong>Can a Fruit Fly Learn Word Embeddings?</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Yuchen Liang, Chaitanya K. Ryali, Benjamin Hoover MIT-IBM Watson AI, Leopold Grinberg, Saket Navlakha, Mohammed J. Zaki, Dmitry Krotov</li>
+<li><strong>Comments</strong>: ICLR 2021</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/1910.07117.pdf"><strong>Analyzing the Forgetting Problem in Pretrain-Finetuning of Open-domain Dialogue Response Models</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Tianxing He, Jun Liu, Kyunghyun Cho, Myle Ott, Bing Liu, James Glass, Fuchun Peng</li>
+</ul>
+<p>&lsquo;In this work, we study how the finetuning stage in the pretrain-finetune framework changes the behavior of a pretrained neural language generator.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2002.00388.pdf">A Survey on Knowledge Graphs: Representation, Acquisition and Applications</a></p>
+<ul>
+<li><strong>Author</strong>: Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2007.03909.pdf">Best-First Beam Search</a></p>
+<ul>
+<li><strong>Author</strong>: Clara Meister, Tim Vieira, Ryan Cotterell</li>
+<li><strong>Comments</strong>: TACL 2020</li>
+</ul>
+<p>&lsquo;In this work, we show that the standard implementation of beam search can be made up to 10x faster in practice.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2007.04298.pdf"><strong>Building Interpretable Interaction Trees for Deep NLP Models</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Die Zhang, Huilin Zhou, Hao Zhang, Xiaoyi Bao, Da Huo, Ruizhao Chen, Xu Cheng, Mengyue Wu, Quanshi Zhang</li>
+</ul>
+<p>&lsquo;This paper proposes a method to disentangle and quantify interactions among words that are encoded inside a DNN for natural language processing.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2010.02650.pdf"><strong>If Beam Search is the Answer, What was the Question?</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Clara Meister, Tim Vieira, Ryan Cotterell</li>
+<li><strong>Comments</strong>: EMNLP 2020 Honorable Mention Paper</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="14-jan-21----15-jan-21">14 Jan 21 &ndash; 15 Jan 21</h2>
+<p>更新于 5 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.05938.pdf">KDLSQ-BERT: A Quantized Bert Combining Knowledge Distillation with Learned Step Size Quantization</a></p>
+<ul>
+<li><strong>Author</strong>: Jing Jin, Cai Liang, Tiancheng Wu, Liqin Zou, Zhiliang Gan</li>
+</ul>
+<p>BERT 量化</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06066.pdf">Unstructured Knowledge Access in Task-oriented Dialog Modeling using Language Inference, Knowledge Retrieval and Knowledge-Integrative</a></p>
+<ul>
+<li><strong>Author</strong>: Mudit Chaudhary, Borislav Dzodzo, Sida Huang, Chun Hei Lo, Mingzhi Lyu, Lun Yiu Nie, Jinbo Xing, Tianhua Zhang, Xiaoying Zhang, Jingyan Zhou, Hong Cheng, Wai Lam, Helen Meng</li>
+</ul>
+<p>针对 DSTC9 Track1 设计模型</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.06172.pdf">Empirical Evaluation of Supervision Signals for Style Transfer Models</a></p>
+<ul>
+<li><strong>Author</strong>: Yevgeniy Puzikov, Stanley Simoes, Iryna Gurevych, Immanuel Schweizer</li>
+</ul>
+<p>这篇工作比较了在缺乏 parallel data 的情况下优化 style transfer 模型的三种主流方法：backtranslation, adversarial training and reinforcement learning.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2007.14966.pdf"><strong>Mirostat: A Neural Text Decoding Algorithm that Directly Controls Perplexity</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Sourya Basu, Govardana Sachitanandam Ramachandran, Nitish Shirish Keskar, Lav R. Varshney</li>
+<li><strong>Comments</strong>: ICLR 2021</li>
+</ul>
+<p>对 seq2seq model decoding algorithm 的研究</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2012.11099.pdf">A Graph Reasoning Network for Multi-turn Response Selection via Customized Pre-training</a></p>
+<ul>
+<li><strong>Author</strong>: Yongkang Liu, Shi Feng, Daling Wang, Kaisong Song, Feiliang Ren, Yifei Zhang</li>
+<li><strong>Comments</strong>: AAAI 2021</li>
+</ul>
+<p>Customized Pre-training: next utterance prediction,  utterance order prediction, sequence reasoning, graph reasoning.</p>
+<p>​</p>
+<p>​</p>
+<h2 id="13-jan-21----14-jan-21">13 Jan 21 &ndash; 14 Jan 21</h2>
+<p>更新于 5 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.05469.pdf">Text Augmentation in a Multi-Task View</a></p>
+<ul>
+<li><strong>Author</strong>: Jason Wei, Chengyu Huang, Shiqi Xu, Soroush Vosoughi</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p><strong>Multi-task view (MTV) of data augmentation</strong>: The primary task trains on original examples and the auxiliary task trains on augmented examples.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.05786.pdf">Persuasive Natural Language Generation - A Literature Review</a></p>
+<ul>
+<li><strong>Author</strong>: Sebastian Duerr, Peter A. Gloor</li>
+</ul>
+<p>&lsquo;This literature review focuses on the use of Natural Language Generation (NLG) to automatically detect and generate persuasive texts.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.05779.pdf"><strong>Structured Prediction as Translation between Augmented Natural Languages</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Giovanni Paolini, Ben Athiwaratkun, Jason Krone, Jie Ma, Alessandro Achille, Rishita Anubhai, Cicero Nogueira dos Santos, Bing Xiang, Stefano Soatto</li>
+<li><strong>Comments</strong>: ICLR 2021</li>
+</ul>
+<p>&lsquo;We propose a new framework, Translation between Augmented Natural Languages (TANL), to solve many structured prediction language tasks including joint entity and relation extraction, nested named entity recognition, relation classification, semantic role labeling, event extraction, coreference resolution, and dialogue state tracking.&rsquo;</p>
+<p>​</p>
+<p>[Sparsifying Transformer Models with Differentiable Representation Pooling](Sparsifying Transformer Models with Differentiable Representation Pooling)</p>
+<ul>
+<li><strong>Author</strong>: Michał Pietruszka, Łukasz Borchmann</li>
+</ul>
+<p>&lsquo;We propose a novel method to sparsify attention in the Transformer model by learning to select the most-informative token representations during the training process, thus focusing on task-specific parts of the input.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.05916.pdf">Telling BERT’s Full Story: from Local Attention to Global Aggregation</a></p>
+<ul>
+<li><strong>Author</strong>: Damián Pascual, Gino Brunner, Roger Wattenhofer</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="12-jan-21----13-jan-21">12 Jan 21 &ndash; 13 Jan 21</h2>
+<p>更新于 5 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.04840.pdf">Robustness Gym: Unifying the NLP Evaluation Landscape</a></p>
+<ul>
+<li><strong>Author</strong>: Karan Goel, Nazneen Rajani, Jesse Vig, Samson Tan, Jason Wu, Stephan Zheng, Caiming Xiong, Mohit Bansal, Christopher Ré</li>
+</ul>
+<p>Evaluation Platform</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.05004.pdf">Is the User Enjoying the Conversation? A Case Study on the Impact on the Reward Function.</a></p>
+<ul>
+<li><strong>Author</strong>: Lina M. Rojas-Barahona</li>
+<li><strong>Comments</strong>: Accepted at the Human in the Loop Dialogue Systems, NeurIPS 2020</li>
+</ul>
+<p>&lsquo;In this work we adopt deep neural networks that use distributed semantic representation learning for estimating the user satisfaction in conversations.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2012.05426.pdf">Empirical Analysis of Unlabeled Entity Problem in Named Entity Recognition</a></p>
+<ul>
+<li><strong>Author</strong>: Yangming Li, Lemao Liu, Shuming Shi</li>
+<li><strong>Comments</strong>: ICLR 2021</li>
+</ul>
+<p>&lsquo;The core idea is using negative sampling to keep the probability of training with unlabeled entities at a very low level.&rsquo;</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2012.07280.pdf"><strong>Contrastive Learning with Adversarial Perturbations for Conditional Text Generation</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Seanie Lee, Dong Bok Lee, Sung Ju Hwang</li>
+<li><strong>Comments</strong>: ICLR 2021</li>
+</ul>
+<p>使用 contrastive learning 来缓解 seq2seq 模型的 exposure bias 问题</p>
+<p>&lsquo;Specifically, we generate negative examples by adding small perturbations to the input sequence to minimize its conditional likelihood, and positive examples by adding large perturbations while enforcing it to have a high conditional likelihood. '</p>
+<p>​</p>
+<p>​</p>
+<h2 id="11-jan-21----12-jan-21">11 Jan 21 &ndash; 12 Jan 21</h2>
+<p>更新于 4 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.04229.pdf">Implicit Unlikelihood Training: Improving Neural Text Generation with Reinforcement Learning</a></p>
+<ul>
+<li><strong>Author</strong>: Evgeny Lagutin, Daniil Gavrilov, Pavel Kalaidin</li>
+<li><strong>Comments</strong>: EACL 2021</li>
+<li><strong>Keywords</strong>: Text Generation, Policy Gradient, Unlikelihood Training</li>
+</ul>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.04547.pdf">Of Non-Linearity and Commutativity in BERT</a></p>
+<ul>
+<li><strong>Author</strong>: Sumu Zhao, Damián Pascual, Gino Brunner, Roger Wattenhofer</li>
+</ul>
+<p>BERT Probing</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2006.03654.pdf"><strong>DeBERTa: Decoding-enhanced BERT with Disentangled Attention</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen</li>
+</ul>
+<p>Language Model</p>
+<p>&lsquo;The first is the disentangled attention mechanism, where each word is represented using two vectors that encode its content and position, respectively, and the attention weights among words are computed using disentangled matrices on their contents and relative positions, respectively. Second, an enhanced mask decoder is used to incorporate absolute positions in the decoding layer to predict the masked tokens in model pre-training.&rsquo;</p>
+<p>​</p>
+<p>​</p>
+<h2 id="8-jan-21----11-jan-21">8 Jan 21 &ndash; 11 Jan 21</h2>
+<p>更新于 4 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.03236.pdf">SDA: Improving Text Generation with Self Data Augmentation</a></p>
+<ul>
+<li><strong>Author</strong>: Ping Yu, Ruiyi Zhang, Yang Zhao, Yizhe Zhang, Chunyuan Li, Changyou Chen</li>
+</ul>
+<p>Data Augmentation</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.03453.pdf">BERT &amp; Family Eat Word Salad: Experiments with Text Understanding</a></p>
+<ul>
+<li><strong>Author</strong>: Ashim Gupta, Giorgi Kvernadze, Vivek Srikumar</li>
+<li><strong>Comments</strong>: AAAI 2021</li>
+</ul>
+<p>Adversarial Examples</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.03778.pdf">Revisiting Mahalanobis Distance for Transformer-Based Out-of-Domain Detection</a></p>
+<ul>
+<li><strong>Author</strong>: Alexander Podolskiy, Dmitry Lipin, Andrey Bout, Ekaterina Artemova, Irina Piontkovskaya</li>
+<li><strong>Comments</strong>: AAAI 2021</li>
+</ul>
+<p>​</p>
+<p>​</p>
+<h2 id="7-jan-21----8-jan-21">7 Jan 21 &ndash; 8 Jan 21</h2>
+<p>更新于 2 Feb 2021</p>
+<p>无</p>
+<p>​</p>
+<p>​</p>
+<h2 id="6-jan-21----7-jan-21">6 Jan 21 &ndash; 7 Jan 21</h2>
+<p>更新于 2 Feb 2021</p>
+<p><a href="https://arxiv.org/pdf/2101.02235.pdf">Did Aristotle Use a Laptop? A Question Answering Benchmark with Implicit Reasoning Strategies</a></p>
+<ul>
+<li><strong>Author</strong>: Mor Geva, Daniel Khashabi, Elad Segal, Tushar Khot, Dan Roth, Jonathan Berant</li>
+<li><strong>Comments</strong>: TACL 2021</li>
+</ul>
+<p>&lsquo;In this work, we introduce StrategyQA, a question answering (QA) benchmark where the required reasoning steps are implicit in the question, and should be inferred using a strategy.&rsquo;</p>
+<p>​</p>
+<p>​</p>
+<h2 id="5-jan-21----6-jan-21">5 Jan 21 &ndash; 6 Jan 21</h2>
+<p>更新于 2 Feb 2021</p>
+<p><a href="">SF-QA: Simple and Fair Evaluation Library for Open-domain Question Answering</a></p>
+<ul>
+<li><strong>Author</strong>: Xiaopeng Lu, Kyusong Lee, Tiancheng Zhao</li>
+</ul>
+<p>QA evaluation framework</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2101.01761.pdf"><strong>AutoDropout: Learning Dropout Patterns to Regularize Deep Networks</strong></a></p>
+<ul>
+<li><strong>Author</strong>: Hieu Pham,  Quoc V. Le</li>
+<li><strong>Comments</strong>: AAAI 2021</li>
+</ul>
+<p>Dropout 升级</p>
+<p>​</p>
+<p>​</p>
+<h2 id="4-jan-21----5-jan-21">4 Jan 21 &ndash; 5 Jan 21</h2>
+<p>更新于 2 Feb 2021</p>
+<p><a href="https://arxiv.org/abs/2101.01321">I-BERT: Integer-only BERT Quantization</a></p>
+<ul>
+<li><strong>Author</strong>: Sehoon Kim, Amir Gholami, Zhewei Yao, Michael W. Mahoney, Kurt Keutzer</li>
+</ul>
+<p>BERT 量化</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+          2020 -
+        
+        2021
+         Xinyi Shen 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
