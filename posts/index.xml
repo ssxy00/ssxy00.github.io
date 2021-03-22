@@ -18,11 +18,9 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2103/</guid>
       <description>这篇博客记录的是 2021 年 3 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-17 Mar 21 &amp;ndash; 18 Mar 21 更新于 20 Mar 2021
-Smoothing and Shrinking the Sparse Seq2Seq Search Space
- Author: Ben Peters, André F. T. Martins Comments: NAACL 2021  In this work, we show that entmax-based models effectively solve the cat got your tongue problem, removing a major source of model error for neural machine translation.
-​
-All NLP Tasks Are Generation Tasks: A General Pretraining Framework</description>
+18 Mar 21 &amp;ndash; 19 Mar 21 更新于 22 Mar 2021
+Improving the Lexical Ability of Pretrained Language Models for Unsupervised Neural Machine Translation
+ Author: Alexandra Chronopoulou, Dario Stojanovski, Alexander Fraser Comments: NAACL 2021  While cross-lingual pretraining works for similar languages with abundant corpora, it performs poorly in low-resource, distant languages. Previous research has shown that this is because the representations are not sufficiently aligned.</description>
     </item>
     
     <item>
@@ -32,10 +30,12 @@ All NLP Tasks Are Generation Tasks: A General Pretraining Framework</description
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2102/</guid>
       <description>这篇博客记录的是 2021 年 2 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-3 Feb 21 &amp;ndash; 4 Feb 21 更新于 10 Mar 2021
-Converse, Focus and Guess - Towards Multi-Document Driven Dialogue
- Author: Han Liu, Caixia Yuan, Xiaojie Wang, Yushu Yang, Huixing Jiang, Zhongyuan Wang Comments: AAAI 2021  Task - Multi-Document Driven Dialogue (MD3): an agent can guess the target document that the user is interested in by leading a dialogue.
-Dataset - GuessMovie: contains 16,881 documents, each describing a movie, and associated 13,434 dialogues.</description>
+12 Feb 21 &amp;ndash; 15 Feb 21 更新于 22 Mar 2021
+Interactive Learning from Activity Description
+ Author: Khanh Nguyen, Dipendra Misra, Robert Schapire, Miro Dudík, Patrick Shafto  We present a novel interactive learning protocol that enables training request-fulfilling agents by verbally describing their activities.
+​
+PAQ: 65 Million Probably-Asked Questions and What You Can Do With Them
+ Author: Patrick Lewis, Yuxiang Wu, Linqing Liu, Pasquale Minervini, Heinrich Küttler, Aleksandra Piktus, Pontus Stenetorp, Sebastian Riedel  ​</description>
     </item>
     
     <item>

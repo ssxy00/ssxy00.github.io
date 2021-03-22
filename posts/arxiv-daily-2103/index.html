@@ -157,7 +157,7 @@ code.has-jax {
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              15-minute read
+              17-minute read
             </span>
           </div>
           <div class="authors">
@@ -171,6 +171,50 @@ code.has-jax {
       <div>
         
         <p>这篇博客记录的是 2021 年 3 月内刷到的 <a href="https://arxiv.org/list/cs.CL/recent">Arxiv cs.CL</a> 感兴趣的文献。</p>
+<h2 id="18-mar-21----19-mar-21">18 Mar 21 &ndash; 19 Mar 21</h2>
+<p>更新于 22 Mar 2021</p>
+<p><a href="https://arxiv.org/pdf/2103.10531.pdf">Improving the Lexical Ability of Pretrained Language Models for Unsupervised Neural Machine Translation</a></p>
+<ul>
+<li><strong>Author</strong>: Alexandra Chronopoulou, Dario Stojanovski, Alexander Fraser</li>
+<li><strong>Comments</strong>: NAACL 2021</li>
+</ul>
+<p>While cross-lingual pretraining works for similar languages with abundant corpora, it performs poorly in low-resource, distant languages. Previous research has shown that this is because the representations are not sufficiently aligned. In this paper, we enhance the bilingual masked language model pretraining with lexical-level information by using type-level cross-lingual subword embeddings.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2103.10685.pdf">Controllable Generation from Pre-trained Language Models via Inverse Prompting</a></p>
+<ul>
+<li><strong>Author</strong>: Xu Zou, Da Yin, Qingyang Zhong, Hongxia Yang, Zhilin Yang, Jie Tang</li>
+</ul>
+<p>The core idea of inverse prompting is to use generated text to inversely predict the prompt during beam search, which enhances the relevance between the prompt and the generated text and provides better controllability.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2103.10918.pdf">Play the Shannon Game With Language Models: A Human-Free Approach to Summary Evaluation</a></p>
+<ul>
+<li><strong>Author</strong>: Nicholas Egan, Oleg Vasilyev, John Bohannon</li>
+</ul>
+<p>These metrics are a modern take on the Shannon Game, a method for summary quality scoring proposed decades ago, where we replace human annotators with language models.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2103.10682.pdf">Masked Conditional Random Fields for Sequence Labeling</a></p>
+<ul>
+<li><strong>Author</strong>: Tianwen Wei, Jianwei Qi, Shenghuan He, Songtao Sun</li>
+<li>Comments: NAACL 2021</li>
+</ul>
+<p>Despite its great success, CRF has the shortcoming of occasionally generating illegal sequences of tags, e.g. sequences containing an “I-” tag immediately after an “O” tag, which is forbidden by the underlying BIO tagging scheme.</p>
+<p>可是 CRF 的好处不就是学习 label 之间的依赖关系？</p>
+<p>In this work, we propose Masked Conditional Random Field (MCRF), an easy to implement variant of CRF that impose restrictions on candidate paths during both training and decoding phases.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2004.02288.pdf">Continual Domain-Tuning for Pretrained Language Models</a></p>
+<ul>
+<li><strong>Author</strong>: Subendhu Rongali, Abhyuday Jagannatha, Bhanu Pratap Singh Rawat, Hong Yu</li>
+</ul>
+<p>However, during the pretraining phase on the target domain, the LM models may catastrophically forget the patterns learned from their source domain. In this work, we study the effects of catastrophic forgetting on domain-tuned LM models and investigate methods that mitigate its negative effects. We propose continual learning (CL) based alternatives for SDT, that aim to reduce catastrophic forgetting.</p>
+<p>​</p>
+<p><a href="https://arxiv.org/pdf/2006.02635.pdf">M3P: Learning Universal Representations via Multitask Multilingual Multimodal Pre-training</a></p>
+<ul>
+<li><strong>Author</strong>: Minheng Ni, Haoyang Huang, Lin Su, Edward Cui, Taroon Bharti, Lijuan Wang</li>
+<li><strong>Comments</strong>: CVPR 2021</li>
+</ul>
+<p>Our goal is to learn universal representations that can map objects occurred in different modalities or texts expressed in different languages into a common semantic space.</p>
+<p>​</p>
+<p>​</p>
 <h2 id="17-mar-21----18-mar-21">17 Mar 21 &ndash; 18 Mar 21</h2>
 <p>更新于 20 Mar 2021</p>
 <p><a href="https://arxiv.org/pdf/2103.10291.pdf">Smoothing and Shrinking the Sparse Seq2Seq Search Space</a></p>
