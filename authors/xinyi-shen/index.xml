@@ -18,12 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2103/</guid>
       <description>这篇博客记录的是 2021 年 3 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-23 Mar 21 &amp;ndash; 24 Mar 21 更新于 26 Mar 2021
-UNICORN on RAINBOW: A Universal Commonsense Reasoning Model on a New Multitask Benchmark
- Author: Nicholas Lourie, Ronan Le Bras, Chandra Bhagavatula, Yejin Choi Comments: AAAI 2021  ​
-Thinking Aloud: Dynamic Context Generation Improves Zero-Shot Reasoning Performance of GPT-2
- Author: Gregor Betz, Kyle Richardson, Christian Voigt  ​
-Finetuning Pretrained Transformers into RNNs</description>
+24 Mar 21 &amp;ndash; 25 Mar 21 更新于 27 Mar 2021
+Reading and Acting while Blindfolded: The Need for Semantics in Text Game Agents
+ Author: Shunyu Yao, Karthik Narasimhan, Matthew Hausknecht Comments: NAACL 2021  ​
+BERT4SO: Neural Sentence Ordering by Fine-tuning BERT
+ Author: Yutao Zhu, Jian-Yun Nie, Kun Zhou, Shengchao Liu, Pan Du  ​
+Mask Attention Networks: Rethinking and Strengthen Transformer</description>
     </item>
     
     <item>
