@@ -18,12 +18,11 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2103/</guid>
       <description>这篇博客记录的是 2021 年 3 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-26 Mar 21 &amp;ndash; 29 Mar 21 更新于 31 Mar 2021
-Whitening Sentence Representations for Better Semantics and Faster Retrieval
- Author: Jianlin Su, Jiarun Cao, Weijie Liu, Yangyiwen Ou  ​
-Extending Multi-Sense Word Embedding to Phrases and Sentences for Unsupervised Semantic Applications
- Author: Haw-Shiuan Chang, Amol Agrawal, Andrew McCallum Comments: AAAI 2021  ​
-Changing the Mind of Transformers for Topically-Controllable Language Generation</description>
+29 Mar 21 &amp;ndash; 30 Mar 21 更新于 1 Apr 2021
+Transformer visualization via dictionary learning: contextualized embedding as a linear superposition of transformer factors
+ Author: Zeyu Yun, Yubei Chen, Bruno A Olshausen, Yann LeCun  ​
+Grounding Dialogue Systems via Knowledge Graph Aware Decoding with Pre-trained Transformers
+ Author: Debanjan Chaudhuri, Md Rashad Al Hasan Rony, Jens Lehman Comments: ESWC 2021  ​</description>
     </item>
     
     <item>
