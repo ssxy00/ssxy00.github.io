@@ -6,10 +6,24 @@
     <description>Recent content on Xinyi Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Mar 2021 18:58:11 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Apr 2021 08:45:54 +0800</lastBuildDate>
     
 	<atom:link href="http://ssxy00.github.io/authors/xinyi-shen/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arxiv Daily | Apr 2021</title>
+      <link>http://ssxy00.github.io/posts/arxiv-daily-2104/</link>
+      <pubDate>Tue, 06 Apr 2021 08:45:54 +0800</pubDate>
+      
+      <guid>http://ssxy00.github.io/posts/arxiv-daily-2104/</guid>
+      <description>这篇博客记录的是 2021 年 4 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+1 Mar 21 &amp;ndash; 2 Apr 21 更新于 6 Apr 2021
+MultiWOZ 2.4: A Multi-Domain Task-Oriented Dialogue Dataset with Essential Annotation Corrections to Improve State Tracking Evaluation
+ Author: Fanghua Ye, Jarana Manotumruksa, Emine Yilmaz  This work introduces MultiWOZ 2.4 , in which we refine all annotations in the validation set and test set on top of MultiWOZ 2.1.
+​
+Towards General Purpose Vision Systems</description>
+    </item>
     
     <item>
       <title>Arxiv Daily | Mar 2021</title>
