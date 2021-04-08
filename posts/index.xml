@@ -18,9 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2104/</guid>
       <description>这篇博客记录的是 2021 年 4 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-2 Apr 21 &amp;ndash; 5 Apr 21 更新于 7 Apr 2021
-Attention Forcing for Machine Translation
- Author: Qingyun Dou, Yiting Lu, Potsawee Manakul, Xixin Wu, Mark J. F. Gales  This paper introduces attention forcing for NMT. This approach guides the model with the generated output history and reference attention, and can reduce the training-inference mismatch without a schedule or a classifier.</description>
+5 Apr 21 &amp;ndash; 6 Apr 21 更新于 8 Apr 2021
+Efficient Attentions for Long Document Summarization
+ Author: Luyang Huang, Shuyang Cao, Nikolaus Parulian, Heng Ji, Lu Wang Comments: NAACL 2021 long paper  ​
+Attention Head Masking for Inference Time Content Selection in Abstractive Summarization
+ Author: Shuyang Cao, Lu Wang Comments: NAACL 2021 short paper  ​
+What Will it Take to Fix Benchmarking in Natural Language Understanding?</description>
     </item>
     
     <item>
