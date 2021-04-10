@@ -18,12 +18,13 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2104/</guid>
       <description>这篇博客记录的是 2021 年 4 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-6 Apr 21 &amp;ndash; 7 Apr 21 更新于 9 Apr 2021
-Interpreting A Pre-trained Model Is A Key For Model Architecture Optimization: A Case Study On Wav2Vec 2.0
- Author: Liu Chen, Meysam Asgari  对 attention heatmap 做了可视化来分析其合理性，值得借鉴
-​
-INFOXLM: An Information-Theoretic Framework for Cross-Lingual Language Model Pre-Training
- Author: Zewen Chi, Li Dong, Furu Wei, Nan Yang, Saksham Singhal, Wenhui Wang, Xia Song, Xian-Ling Mao, Heyan Huang, Ming Zhou Comments: NAACL 2021  In this work, we present an informationtheoretic framework that formulates crosslingual language model pre-training as maximizing mutual information between multilingual-multi-granularity texts.</description>
+7 Apr 21 &amp;ndash; 8 Apr 21 更新于 10 Apr 2021
+Revisiting Simple Neural Probabilistic Language Models
+ Author: Simeng Sun, Mohit Iyyer Comments: NAACL 2021  ​
+Low-Complexity Probing via Finding Subnetworks
+ Author: Steven Cao, Victor Sanh, Alexander M. Rush Comments: NAACL-HLT 2021  ​
+Probing BERT in Hyperbolic Spaces
+ Author: Boli Chen, Yao Fu, Guangwei Xu, Pengjun Xie, Chuanqi Tan, Mosha Chen, Liping Jing Comments: ICLR 2021  ​</description>
     </item>
     
     <item>
