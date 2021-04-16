@@ -18,12 +18,13 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2104/</guid>
       <description>这篇博客记录的是 2021 年 4 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-9 Apr 21 &amp;ndash; 12 Apr 21 更新于 15 Apr 2021
-Not All Attention Is All You Need
- Author: Hongqiu Wu, Hai Zhao, Min Zhang  In this paper, we focus on pre-trained language models with self-pruning training design on taskspecific tuning.
-​
-Imperfect also Deserves Reward: Multi-Level and Sequential Reward Modeling for Better Dialog Management
- Author: Zhengxu Hou, Bang Liu, Ruihui Zhao, Zijing Ou, Yafei Liu, Xi Chen, Yefeng Zheng Comments: NAACL 2021  In this paper, we propose a multi-level reward modeling approach that factorizes a reward into a threelevel hierarchy: domain, act, and slot.</description>
+12 Apr 21 &amp;ndash; 13 Apr 21 更新于 16 Apr 2021
+Evaluating Saliency Methods for Neural Language Models
+ Author: Shuoyang Ding, Philipp Koehn Comments: NAACL 2021  ​
+Relational world knowledge representation in contextual language models: A review
+ Author: Tara Safavi, Danai Koutra  ​
+Targeted Adversarial Training for Natural Language Understanding
+ Author: Lis Pereira, Xiaodong Liu, Hao Cheng, Hoifung Poon, Jianfeng Gao, Ichiro Kobayashi Comments: NAACL 2021  The key idea is to introspect current mistakes and prioritize adversarial training steps to where the model errs the most.</description>
     </item>
     
     <item>
