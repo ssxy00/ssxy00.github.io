@@ -6,10 +6,40 @@
     <description>Recent content in Posts on Xinyi Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Apr 2021 08:45:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Sep 2021 11:35:11 +0800</lastBuildDate>
     
 	<atom:link href="http://ssxy00.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arxiv Daily | Sep 2021</title>
+      <link>http://ssxy00.github.io/posts/arxiv-daily-2109/</link>
+      <pubDate>Mon, 06 Sep 2021 11:35:11 +0800</pubDate>
+      
+      <guid>http://ssxy00.github.io/posts/arxiv-daily-2109/</guid>
+      <description>这篇博客记录的是 2021 年 6 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+1 Sep 21 &amp;ndash; 2 Sep 21 更新于 6 Sep 2021
+Knowledge-Aware Graph-Enhanced GPT-2 for Dialogue State Tracking
+ Author: Weizhe Lin, Bo-Hsiang Tseng, Bill Byrne Comments: EMNLP 2021  ​
+Probing Commonsense Explanation in Dialogue Response Generation
+ Author: Pei Zhou, Pegah Jandaghi, Hyundong Cho, Bill Yuchen Lin, Jay Pujara, Xiang Ren Comments: EMNLP 2021-Findings  ​
+Fastformer: Additive Attention Can Be All You Need</description>
+    </item>
+    
+    <item>
+      <title>Arxiv Daily | Jun 2021</title>
+      <link>http://ssxy00.github.io/posts/arxiv-daily-2106/</link>
+      <pubDate>Sun, 13 Jun 2021 20:46:49 +0800</pubDate>
+      
+      <guid>http://ssxy00.github.io/posts/arxiv-daily-2106/</guid>
+      <description>这篇博客记录的是 2021 年 6 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+30 Jun 21 &amp;ndash; 1 Jul 21 更新于 2 Aug 2021
+All That’s ‘Human’ Is Not Gold: Evaluating Human Evaluation of Generated Text
+ Author: Elizabeth Clark, Tal August, Sofia Serrano, Nikita Haduong, Suchin Gururangan, Noah A. Smith  ​
+Controllable Open-ended Question Generation with A New Question Type Ontology
+ Author: Shuyang Cao, Lu Wang Comments: ACL 2021  ​
+CLINE: Contrastive Learning with Semantic Negative Examples for Natural Language Understanding</description>
+    </item>
     
     <item>
       <title>Arxiv Daily | Apr 2021</title>
@@ -18,12 +48,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2104/</guid>
       <description>这篇博客记录的是 2021 年 4 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-21 Apr 21 &amp;ndash; 22 Apr 21 更新于 4 May 2021
-Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?
- Author: William Merrill, Yoav Goldberg, Roy Schwartz, Noah A. Smith Comments: TACL  ​
+22 Apr 21 &amp;ndash; 23 Apr 21 更新于 11 May 2021
+Interpreting Graph Neural Networks for NLP With Differentiable Edge Masking
+ Author: Michael Sejr Schlichtkrull, Nicola De Cao, Ivan Titov Comments: ICLR 2021  ​
 ​
-20 Apr 21 &amp;ndash; 21 Apr 21 更新于 29 Apr 2021
-The NLP Cookbook: Modern Recipes for Transformer based Deep Learning Architectures</description>
+21 Apr 21 &amp;ndash; 22 Apr 21 更新于 4 May 2021
+Provable Limitations of Acquiring Meaning from Ungrounded Form: What will Future Language Models Understand?</description>
     </item>
     
     <item>
