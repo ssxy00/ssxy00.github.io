@@ -18,11 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2109/</guid>
       <description>这篇博客记录的是 2021 年 6 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-2 Sep 21 &amp;ndash; 3 Sep 21 更新于 7 Sep 2021
-Detecting Speaker Personas from Conversational Texts
- Author: Jia-Chen Gu, Zhen-Hua Ling, Yu Wu, Quan Liu, Zhigang Chen, Xiaodan Zhu Comments: EMNLP 2021  ​
-Language Modeling, Lexical Translation, Reordering: The Training Process of NMT through the Lens of Classical SMT
- Author: Elena Voita, Rico Sennrich, Ivan Titov Comments: EMNLP 2021  ​</description>
+22 Sep 21 &amp;ndash; 23 Sep 21 更新于 25 Sep 2021
+Conditional Poisson Stochastic Beam Search
+ Author: Clara Meister, Afra Amini, Tim Vieira, Ryan Cotterell Comments: EMNLP 2021  ​
+Distiller: A Systematic Study of Model Distillation Methods in Natural Language Processing
+ Author: Haoyu He, Xingjian Shi, Jonas Mueller, Sheng Zha, Mu Li, George Karypis  ​
+Dynamic Knowledge Distillation for Pre-trained Language Models</description>
     </item>
     
     <item>
