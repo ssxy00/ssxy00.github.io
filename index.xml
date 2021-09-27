@@ -18,12 +18,13 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2109/</guid>
       <description>这篇博客记录的是 2021 年 6 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+23 Sep 21 &amp;ndash; 24 Sep 21 更新于 27 Sep 2021
+Improving Sequence-to-Sequence Pre-training via Sequence Span Rewriting
+ Author: Wangchunshu Zhou, Tao Ge, Canwen Xu, Ke Xu, Furu Wei  ​
+​
 22 Sep 21 &amp;ndash; 23 Sep 21 更新于 25 Sep 2021
 Conditional Poisson Stochastic Beam Search
- Author: Clara Meister, Afra Amini, Tim Vieira, Ryan Cotterell Comments: EMNLP 2021  ​
-Distiller: A Systematic Study of Model Distillation Methods in Natural Language Processing
- Author: Haoyu He, Xingjian Shi, Jonas Mueller, Sheng Zha, Mu Li, George Karypis  ​
-Dynamic Knowledge Distillation for Pre-trained Language Models</description>
+ Author: Clara Meister, Afra Amini, Tim Vieira, Ryan Cotterell Comments: EMNLP 2021  ​</description>
     </item>
     
     <item>
