@@ -6,10 +6,25 @@
     <description>Recent content in Posts on Xinyi Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Sep 2021 11:35:11 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Oct 2021 14:53:16 +0800</lastBuildDate>
     
 	<atom:link href="http://ssxy00.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arxiv Daily | Oct 2021</title>
+      <link>http://ssxy00.github.io/posts/arxiv-daily-2110/</link>
+      <pubDate>Tue, 12 Oct 2021 14:53:16 +0800</pubDate>
+      
+      <guid>http://ssxy00.github.io/posts/arxiv-daily-2110/</guid>
+      <description>这篇博客记录的是 2021 年 10 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+6 Oct 21 &amp;ndash; 7 Oct 21 更新于 12 Oct 2021
+Towards Continual Knowledge Learning of Language Models
+ Author: Joel Jang, Seonghyeon Ye, Sohee Yang, Joongbo Shin, Janghoon Han, Gyeonghun Kim, Stanley Jungkyu Choi, Minjoon Seo  ​
+Beam Search with Bidirectional Strategies for Neural Response Generation
+ Author: Pierre Colombo, Chouchang (Jack) Yang, Giovanna Varni, Chloé Clavel  ​
+Causal Direction of Data Collection Matters: Implications of Causal and Anticausal Learning for NLP</description>
+    </item>
     
     <item>
       <title>Arxiv Daily | Sep 2021</title>
@@ -17,12 +32,17 @@
       <pubDate>Mon, 06 Sep 2021 11:35:11 +0800</pubDate>
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2109/</guid>
-      <description>这篇博客记录的是 2021 年 6 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+      <description>这篇博客记录的是 2021 年 9 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+29 Sep 21 &amp;ndash; 30 Sep 21 更新于 11 Oct 2021
+None
+​
+​
+28 Sep 21 &amp;ndash; 29 Sep 21 更新于 11 Oct 2021
+Influence Patterns for Explaining Information Flow in BERT
+ Author: Kaiji Lu, Zifan Wang, Piotr Mardziel, Anupam Datta Comments: Neurips 2021  ​
+​
 27 Sep 21 &amp;ndash; 28 Sep 21 更新于 29 Sep 2021
-TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation
- Author: Adaku Uchendu, Zeyu Ma, Thai Le, Rui Zhang, Dongwon Lee Comments: Findings of EMNLP 2021  ​
-Single-dataset Experts for Multi-dataset Question Answering
- Author: Dan Friedman, Ben Dodge, Danqi Chen Comments: EMNLP 2021  ​</description>
+TURINGBENCH: A Benchmark Environment for Turing Test in the Age of Neural Text Generation</description>
     </item>
     
     <item>
