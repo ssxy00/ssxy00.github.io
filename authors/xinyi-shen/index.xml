@@ -18,12 +18,13 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2110/</guid>
       <description>这篇博客记录的是 2021 年 10 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-13 Oct 21 &amp;ndash; 14 Oct 21 更新于 16 Oct 2021
-Bag-of-Vectors Autoencoders for Unsupervised Conditional Text Generation
- Author: Florian Mai, James Henderson  ​
-bert2BERT: Towards Reusable Pretrained Language Models
- Author: Cheng Chen, Yichun Yin, Lifeng Shang, Xin Jiang, Yujia Qin, Fengyu Wang, Zhi Wang, Xiao Chen, Zhiyuan Liu, Qun Liu  ​
-Non-Autoregressive Translation with Layer-Wise Prediction and Deep Supervision</description>
+14 Oct 21 &amp;ndash; 15 Oct 21 更新于 18 Oct 2021
+Hindsight: Posterior-guided training of retrievers for improved open-ended generation
+ Author: Ashwin Paranjape, Omar Khattab, Christopher Potts, Matei Zaharia, Christopher D. Manning  ​
+ContraQA: Question Answering under Contradicting Contexts
+ Author: Liangming Pan, Wenhu Chen, Min-Yen Kan, William Yang Wang  ​
+Structural Modeling for Dialogue Disentanglement
+ Author: Xinbei Ma, Zhuosheng Zhang, Hai Zhao  ​</description>
     </item>
     
     <item>
