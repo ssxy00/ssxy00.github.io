@@ -6,10 +6,24 @@
     <description>Recent content on Xinyi Shen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Oct 2021 14:53:16 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Nov 2021 22:46:50 +0800</lastBuildDate>
     
 	<atom:link href="http://ssxy00.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Arxiv Daily | Nov 2021</title>
+      <link>http://ssxy00.github.io/posts/arxiv-daily-2111/</link>
+      <pubDate>Tue, 09 Nov 2021 22:46:50 +0800</pubDate>
+      
+      <guid>http://ssxy00.github.io/posts/arxiv-daily-2111/</guid>
+      <description>这篇博客记录的是 2021 年 11 月内刷到的 Arxiv cs.CL 感兴趣的文献。
+4 Nov 21 &amp;ndash; 5 Nov 21 更新于 10 Nov 2021
+Grounded Graph Decoding Improves Compositional Generalization in Question Answering
+ Author: Yu Gai, Paras Jain, Wendi Zhang, Joseph E. Gonzalez, Dawn Song, Ion Stoica Comments: EMNLP 2021  ​
+Emergent Discrete Communication in Semantic Spaces
+ Author: Mycal Tucker, Huao Li, Siddharth Agrawal, Dana Hughes, Katia Sycara, Michael Lewis, Julie Shah  ​</description>
+    </item>
     
     <item>
       <title>Arxiv Daily | Oct 2021</title>
@@ -18,11 +32,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2110/</guid>
       <description>这篇博客记录的是 2021 年 10 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-27 Oct 21 &amp;ndash; 28 Oct 21 更新于 30 Oct 2021
-Pruning Attention Heads of Transformer Models Using A* Search: A Novel Approach to Compress Big NLP Architectures
- Author: Archit Parnami, Rahul Singh, Tarun Joshi  ​
-One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval
- Author: Akari Asai, Xinyan Yu, Jungo Kasai, Hannaneh Hajishirzi Comments: NeurIPS 2021  ​</description>
+29 Oct 21 &amp;ndash; 1 Nov 21 更新于 9 Nov 2021
+TransAug: Translate as Augmentation for Sentence Embeddings
+ Author: Jue Wang, Haofan Wang, Xing Wu, Chaochen Gao, Debing Zhang  ​
+EmpBot: A T5-based Empathetic Chatbot focusing on Sentiments
+ Author: Emmanouil Zaranis, Georgios Paraskevopoulos, Athanasios Katsamanis, Alexandros Potamianos  ​
+An Approach to Inference-Driven Dialogue Management within a Social Chatbot</description>
     </item>
     
     <item>
