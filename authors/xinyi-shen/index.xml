@@ -18,11 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2111/</guid>
       <description>这篇博客记录的是 2021 年 11 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-4 Nov 21 &amp;ndash; 5 Nov 21 更新于 10 Nov 2021
-Grounded Graph Decoding Improves Compositional Generalization in Question Answering
- Author: Yu Gai, Paras Jain, Wendi Zhang, Joseph E. Gonzalez, Dawn Song, Ion Stoica Comments: EMNLP 2021  ​
-Emergent Discrete Communication in Semantic Spaces
- Author: Mycal Tucker, Huao Li, Siddharth Agrawal, Dana Hughes, Katia Sycara, Michael Lewis, Julie Shah  ​</description>
+5 Nov 21 &amp;ndash; 8 Nov 21 更新于 12 Nov 2021
+NLP From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework
+ Author: Xingcheng Yao, Yanan Zheng, Xiaocong Yang, Zhilin Yang  ​
+TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning
+ Author: Yixuan Su, Fangyu Liu, Zaiqiao Meng, Lei Shu, Ehsan Shareghi, Nigel Collier  ​
+Case-Based Reasoning for Natural Language Queries over Knowledge Bases</description>
     </item>
     
     <item>
