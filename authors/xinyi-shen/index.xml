@@ -18,11 +18,12 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2112/</guid>
       <description>这篇博客记录的是 2021 年 12 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-1 Dec 21 &amp;ndash; 2 Dec 21 更新于 3 Dec 2021
-DKPLM: Decomposable Knowledge-enhanced Pre-trained Language Model for Natural Language Understanding
- Author: Taolin Zhang, Chengyu Wang, Nan Hu, Minghui Qiu, Chengguang Tang, Xiaofeng He, Jun Huang Comments: AAAI 2022  ​
-LOGEN: Few-shot Logical Knowledge-Conditioned Text Generation with Self-training
- Author: Ningyu Zhang, Hongbin Ye, Jiacheng Yang, Shumin Deng, Chuanqi Tan, Mosha Chen, Songfang Huang, Fei Huang, Huajun Chen  ​</description>
+2 Dec 21 &amp;ndash; 3 Dec 21 更新于 6 Dec 2021
+Probing Linguistic Information For Logical Inference In Pre-trained Language Models
+ Author: Zeming Chen, Qiyue Gao Comments: AAAI 2022  ​
+Reduced, Reused and Recycled: The Life of a Dataset in Machine Learning Research
+ Author: Bernard Koch, Emily Denton, Alex Hanna, Jacob G. Foster Comments: NeurIPS 2021  ​
+Rank over Class: The Untapped Potential of Ranking in Natural Language Processing</description>
     </item>
     
     <item>
