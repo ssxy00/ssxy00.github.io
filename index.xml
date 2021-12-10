@@ -18,12 +18,11 @@
       
       <guid>http://ssxy00.github.io/posts/arxiv-daily-2112/</guid>
       <description>这篇博客记录的是 2021 年 12 月内刷到的 Arxiv cs.CL 感兴趣的文献。
-7 Dec 21 &amp;ndash; 8 Dec 21 更新于 9 Dec 2021
-Improving language models by retrieving from trillions of tokens
- Author: Sebastian Borgeaud et al.  ​
-SALKG: Learning From Knowledge Graph Explanations for Commonsense Reasoning
- Author: Aaron Chan, Jiashu Xu, Boyuan Long, Soumya Sanyal, Tanishq Gupta, Xiang Ren Comments: NeurIPS 2021  ​
-Response Generation with Context-Aware Prompt Learning</description>
+8 Dec 21 &amp;ndash; 9 Dec 21 更新于 10 Dec 2021
+LOREN: Logic-Regularized Reasoning for Interpretable Fact Verification
+ Author: Jiangjie Chen, Qiaoben Bao, Changzhi Sun, Xinbo Zhang, Jiaze Chen, Hao Zhou, Yanghua Xiao, Lei Li Comments: AAAI 2022  ​
+Hi-Transformer: Hierarchical Interactive Transformer for Efficient and Effective Long Document Modeling
+ Author: Chuhan Wu, Fangzhao Wu, Tao Qi, Yongfeng Huang Comments: ACL 2021  ​</description>
     </item>
     
     <item>
